@@ -1,0 +1,27 @@
+{
+  "namespace" : "",
+  "name" : "animals_and_sounds",
+  "doc" : "",
+  "database" : "raw",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "name",
+    "type" : [ "string" ],
+    "legacyName" : "name",
+    "logicalFormat" : "ALPHANUMERIC(100)"
+  },{
+    "name": "maximum_age",
+    "type": ["int", "null"],
+    "legacyName": "maximum_age",
+    "logicalFormat": "NUMERIC",
+    "deleted": false,
+    "metadata": false,
+    "default": 0
+    }, {
+    "name" : "sound",
+    "type" : [ "string" ],
+    "legacyName" : "sound",
+    "logicalFormat" : "ALPHANUMERIC(100)"
+  } ]
+}
+
