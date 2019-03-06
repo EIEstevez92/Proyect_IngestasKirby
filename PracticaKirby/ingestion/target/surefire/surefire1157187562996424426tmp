@@ -1,0 +1,5 @@
+#surefire
+#Sun Feb 17 21:05:20 CST 2019
+user.dir=/home/cesponda/Documentos/QATeam/kirby2/ingestion
+localRepository=/home/cesponda/.m2/repository
+basedir=/home/cesponda/Documentos/QATeam/kirby2/ingestion

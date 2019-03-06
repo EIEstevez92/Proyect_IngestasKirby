@@ -1,0 +1,26 @@
+{
+  "namespace" : "",
+  "name" : "schemas",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "string_rename",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "string",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "long",
+    "type" : [ "long", "null" ],
+    "default" : "other",
+    "legacyName" : "long",
+    "logicalFormat" : "long"
+  }, {
+    "name" : "date_rename",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "date",
+    "logicalFormat" : "DATE"
+  } ]
+}

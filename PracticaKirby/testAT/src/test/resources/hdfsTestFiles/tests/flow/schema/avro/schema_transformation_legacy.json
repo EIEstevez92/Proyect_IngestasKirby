@@ -1,0 +1,44 @@
+{
+  "namespace" : "",
+  "name" : "checks",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "field_1",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "field_1",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "field_2",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "field_2",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "field_3",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "field_3",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "field_4",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "field_4",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "date",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "baddate",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "baddate",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  } ]
+}

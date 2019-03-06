@@ -1,0 +1,499 @@
+{
+  "namespace" : "",
+  "name" : "t_kdat_mrr",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "cod_num_trn",
+    "type" : [ "int" ],
+    "legacyName" : "cod_num_trn",
+    "size" : 9
+  }, {
+    "name" : "xti_orig_rui",
+    "type" : [ "string" ],
+    "legacyName" : "xti_orig_rui",
+    "size" : 1
+  }, {
+    "name" : "fec_cierre",
+    "type" : [ "string" ],
+    "legacyName" : "fec_cierre",
+    "size" : 10
+  }, {
+    "name" : "fec_soli_trn",
+    "type" : [ "string" ],
+    "legacyName" : "fec_soli_trn",
+    "size" : 10,
+    "pattern" : "YYYY-MM-DD"
+  }, {
+    "name" : "hms_soli_trn",
+    "type" : [ "string" ],
+    "legacyName" : "hms_soli_trn",
+    "size" : 8
+  }, {
+    "name" : "cod_anno_ej",
+    "type" : [ "string" ],
+    "legacyName" : "cod_anno_ej",
+    "size" : 2
+  }, {
+    "name" : "cod_mes_ej",
+    "type" : [ "string" ],
+    "legacyName" : "cod_mes_ej",
+    "size" : 2
+  }, {
+    "name" : "cod_trnfims",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_trnfims",
+    "size" : 8
+  }, {
+    "name" : "cod_tiptrn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tiptrn",
+    "size" : 2
+  }, {
+    "name" : "cod_subtrn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_subtrn",
+    "size" : 2
+  }, {
+    "name" : "cod_vertrn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_vertrn",
+    "size" : 2
+  }, {
+    "name" : "cod_canal_dv",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_canal_dv",
+    "size" : 2
+  }, {
+    "name" : "cod_medio_dv",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_medio_dv",
+    "size" : 2
+  }, {
+    "name" : "cod_serv_dv",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_serv_dv",
+    "size" : 4
+  }, {
+    "name" : "cod_pan",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pan",
+    "size" : 19
+  }, {
+    "name" : "cod_refaplic",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_refaplic",
+    "size" : 19
+  }, {
+    "name" : "cod_diisoalf",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_diisoalf",
+    "size" : 3
+  }, {
+    "name" : "imp_trans",
+    "type" : [ "string", "null" ],
+    "legacyName" : "imp_trans",
+    "size" : 19
+  }, {
+    "name" : "qnu_detareme",
+    "type" : [ "int", "null" ],
+    "legacyName" : "qnu_detareme",
+    "size" : 9
+  }, {
+    "name" : "fec_ini_proc",
+    "type" : [ "string", "null" ],
+    "legacyName" : "fec_ini_proc",
+    "size" : 10
+  }, {
+    "name" : "cod_id_rop",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_id_rop",
+    "size" : 8
+  }, {
+    "name" : "cod_id_rel",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_id_rel",
+    "size" : 8
+  }, {
+    "name" : "cod_tip_nat",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tip_nat",
+    "size" : 2
+  }, {
+    "name" : "cod_paisoalf",
+    "type" : [ "string" ],
+    "legacyName" : "cod_paisoalf",
+    "size" : 2
+  }, {
+    "name" : "cod_entalfat",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_entalfat",
+    "size" : 4
+  }, {
+    "name" : "cod_entalfa",
+    "type" : [ "string" ],
+    "legacyName" : "cod_entalfa",
+    "size" : 4
+  }, {
+    "name" : "cod_ofictrn",
+    "type" : [ "string" ],
+    "legacyName" : "cod_ofictrn",
+    "size" : 4
+  }, {
+    "name" : "cod_ofictom",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_ofictom",
+    "size" : 4
+  }, {
+    "name" : "cod_det_ope1",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_det_ope1",
+    "size" : 4
+  }, {
+    "name" : "cod_det_ope2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_det_ope2",
+    "size" : 4
+  }, {
+    "name" : "cod_documps",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_documps",
+    "size" : 25
+  }, {
+    "name" : "cod_tipident",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tipident",
+    "size" : 1
+  }, {
+    "name" : "cod_pais_ict",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ict",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_ict",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ict",
+    "size" : 4
+  }, {
+    "name" : "cod_idcontrt",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idcontrt",
+    "size" : 26
+  }, {
+    "name" : "cod_pais_ica",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ica",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_ica",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ica",
+    "size" : 4
+  }, {
+    "name" : "cod_idcontra",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idcontra",
+    "size" : 26
+  }, {
+    "name" : "cod_pais_ic2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ic2",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_ic2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ic2",
+    "size" : 4
+  }, {
+    "name" : "cod_idcontr2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idcontr2",
+    "size" : 26
+  }, {
+    "name" : "cod_pais_per",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_per",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_per",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_per",
+    "size" : 4
+  }, {
+    "name" : "cod_persctpn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_persctpn",
+    "size" : 9
+  }, {
+    "name" : "cod_pais_ide",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ide",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_ide",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ide",
+    "size" : 4
+  }, {
+    "name" : "cod_pers_ide",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_ide",
+    "size" : 9
+  }, {
+    "name" : "cod_pais_tar",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_tar",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_tar",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_tar",
+    "size" : 4
+  }, {
+    "name" : "cod_pers_tar",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_tar",
+    "size" : 9
+  }, {
+    "name" : "cod_pais_c1",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_c1",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_c1",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_c1",
+    "size" : 4
+  }, {
+    "name" : "cod_pers_c1",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_c1",
+    "size" : 9
+  }, {
+    "name" : "cod_pais_c2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_c2",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_c2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_c2",
+    "size" : 4
+  }, {
+    "name" : "cod_pers_c2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_c2",
+    "size" : 9
+  }, {
+    "name" : "cod_pais_trs",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_trs",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_trs",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_trs",
+    "size" : 4
+  }, {
+    "name" : "cod_pers_trs",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_trs",
+    "size" : 9
+  }, {
+    "name" : "cod_pais_ctr",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ctr",
+    "size" : 2
+  }, {
+    "name" : "cod_enta_ctr",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ctr",
+    "size" : 4
+  }, {
+    "name" : "cod_pers_ctr",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_ctr",
+    "size" : 9
+  }, {
+    "name" : "cod_comercc",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_comercc",
+    "size" : 9
+  }, {
+    "name" : "cod_tip_ref",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tip_ref",
+    "size" : 2
+  }, {
+    "name" : "cod_apli_trn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_apli_trn",
+    "size" : 2
+  }, {
+    "name" : "cod_erravi",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_erravi",
+    "size" : 8
+  }, {
+    "name" : "cod_severr",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_severr",
+    "size" : 2
+  }, {
+    "name" : "cod_npuesto",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_npuesto",
+    "size" : 2
+  }, {
+    "name" : "cod_user",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_user",
+    "size" : 8
+  }, {
+    "name" : "cod_st_operc",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_st_operc",
+    "size" : 4
+  }, {
+    "name" : "cod_geve_trn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_geve_trn",
+    "size" : 4
+  }, {
+    "name" : "cod_eve_trn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_eve_trn",
+    "size" : 4
+  }, {
+    "name" : "cod_deve_trn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_deve_trn",
+    "size" : 4
+  }, {
+    "name" : "cod_fun_neg",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_fun_neg",
+    "size" : 4
+  }, {
+    "name" : "cod_sop_fis",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_sop_fis",
+    "size" : 4
+  }, {
+    "name" : "cod_pmit_trn",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pmit_trn",
+    "size" : 4
+  }, {
+    "name" : "cod_detalcto",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_detalcto",
+    "size" : 50
+  }, {
+    "name" : "cod_detalct2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_detalct2",
+    "size" : 50
+  }, {
+    "name" : "cod_tpiclori",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tpiclori",
+    "size" : 1
+  }, {
+    "name" : "cod_idrecori",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idrecori",
+    "size" : 25
+  }, {
+    "name" : "cod_idextno",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idextno",
+    "size" : 2
+  }, {
+    "name" : "cod_paisej",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_paisej",
+    "size" : 2
+  }, {
+    "name" : "cod_entalf1",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_entalf1",
+    "size" : 4
+  }, {
+    "name" : "cod_ofialfac",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_ofialfac",
+    "size" : 4
+  }, {
+    "name" : "cod_entalf2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_entalf2",
+    "size" : 4
+  }, {
+    "name" : "cod_ofialfa2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_ofialfa2",
+    "size" : 4
+  }, {
+    "name" : "cod_pgccontr",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pgccontr",
+    "size" : 4
+  }, {
+    "name" : "cod_pgccont2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pgccont2",
+    "size" : 4
+  }, {
+    "name" : "cod_folioctt",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_folioctt",
+    "size" : 14
+  }, {
+    "name" : "cod_folioct2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_folioct2",
+    "size" : 14
+  }, {
+    "name" : "cod_dependac",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_dependac",
+    "size" : 9
+  }, {
+    "name" : "cod_dependa2",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_dependa2",
+    "size" : 9
+  }, {
+    "name" : "cod_contorig",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_contorig",
+    "size" : 26
+  }, {
+    "name" : "cod_cargousu",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_cargousu",
+    "size" : 3
+  }, {
+    "name" : "cod_errrop",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_errrop",
+    "size" : 8
+  }, {
+    "name" : "cod_retortr",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_retortr",
+    "size" : 8
+  }, {
+    "name" : "cod_sec_int",
+    "type" : [ "int" ],
+    "legacyName" : "cod_sec_int",
+    "size" : 9
+  }, {
+    "name" : "aud_tim",
+    "type" : [ "string" ],
+    "legacyName" : "aud_tim",
+    "size" : 25
+  } ]
+}

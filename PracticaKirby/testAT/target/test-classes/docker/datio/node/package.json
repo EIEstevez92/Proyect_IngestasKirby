@@ -1,0 +1,15 @@
+{
+	"name": "rESTserver",
+	"version": "0.0.1",
+	"description": "REST server",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodejs server.js"
+	},
+	"author": "antoniomeh",
+	"license": "AML",
+	"dependencies": {
+		"hapi": "12.1.0",
+		"joi" : "10.2.2"
+	}
+}

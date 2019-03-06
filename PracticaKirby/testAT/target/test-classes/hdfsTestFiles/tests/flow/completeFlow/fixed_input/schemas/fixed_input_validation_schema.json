@@ -1,0 +1,197 @@
+{
+  "namespace" : "",
+  "name" : "t_kprc_hist_account_mov",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "country_id",
+    "type" : [ "string" ],
+    "legacyName" : "country_id",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entity_id",
+    "type" : [ "string" ],
+    "legacyName" : "entity_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "counterpart_id",
+    "type" : [ "string" ],
+    "legacyName" : "counterpart_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "contract_id",
+    "type" : [ "string" ],
+    "legacyName" : "contract_id",
+    "logicalFormat" : "ALPHANUMERIC(26)"
+  }, {
+    "name" : "mov_date_id",
+    "type" : [ "string" ],
+    "legacyName" : "mov_date_id",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "mov_value_date_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "mov_value_date_id",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "oper_branch_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "oper_branch_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "oper_manual_auto_desc",
+    "type" : [ "string", "null" ],
+    "legacyName" : "oper_manual_auto_desc",
+    "logicalFormat" : "ALPHANUMERIC(15)"
+  }, {
+    "name" : "concept_mov_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "concept_mov_id",
+    "logicalFormat" : "ALPHANUMERIC(5)"
+  }, {
+    "name" : "concept_mov_desc",
+    "type" : [ "string", "null" ],
+    "legacyName" : "concept_mov_desc",
+    "logicalFormat" : "ALPHANUMERIC(60)"
+  }, {
+    "name" : "sign_mov_type",
+    "type" : [ "string", "null" ],
+    "legacyName" : "sign_mov_type",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "movement_amount",
+    "type" : [ "string", "null" ],
+    "legacyName" : "movement_amount",
+    "logicalFormat" : "DECIMAL(17,2)",
+    "locale" : "fixed_unsigned"
+  }, {
+    "name" : "sign_sub_balance_type",
+    "type" : [ "string", "null" ],
+    "legacyName" : "sign_sub_balance_type",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "sub_balance_amount",
+    "type" : [ "string", "null" ],
+    "legacyName" : "sub_balance_amount",
+    "logicalFormat" : "DECIMAL(17,2)",
+    "locale" : "fixed_signed_left"
+  }, {
+    "name" : "currency_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "currency_id",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "branch_terminal_post_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "branch_terminal_post_id",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "movement_desc",
+    "type" : [ "string", "null" ],
+    "legacyName" : "movement_desc",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "mov_application_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "mov_application_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "statement_type",
+    "type" : [ "string", "null" ],
+    "legacyName" : "statement_type",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "movement_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "movement_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "mov_visible_type",
+    "type" : [ "string", "null" ],
+    "legacyName" : "mov_visible_type",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "bill_mov_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "bill_mov_id",
+    "logicalFormat" : "DECIMAL(10,0)"
+  }, {
+    "name" : "pan_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "pan_id",
+    "logicalFormat" : "ALPHANUMERIC(19)"
+  }, {
+    "name" : "user_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "user_id",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "operation_rms_id",
+    "type" : [ "string" ],
+    "legacyName" : "operation_rms_id",
+    "logicalFormat" : "DECIMAL(18,0)",
+    "locale" : "fixed_signed_right"
+  }, {
+    "name" : "sequential_rms_id",
+    "type" : [ "string" ],
+    "legacyName" : "sequential_rms_id",
+    "logicalFormat" : "DECIMAL(18,0)"
+  }, {
+    "name" : "additional_mov_desc",
+    "type" : [ "string", "null" ],
+    "legacyName" : "additional_mov_desc",
+    "logicalFormat" : "ALPHANUMERIC(150)"
+  }, {
+    "name" : "pg_cat_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "pg_cat_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "pg_subcat_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "pg_subcat_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "mov_origin_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "mov_origin_id",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "mov_apl_key_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "mov_apl_key_id",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "mov_cancelled_type",
+    "type" : [ "string", "null" ],
+    "legacyName" : "mov_cancelled_type",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "oper_cancelled_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "oper_cancelled_id",
+    "logicalFormat" : "DECIMAL(18,0)"
+  }, {
+    "name" : "seq_cancelled_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "seq_cancelled_id",
+    "logicalFormat" : "DECIMAL(18,0)"
+  }, {
+    "name" : "real_mov_date_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "real_mov_date_id",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "ccc_id",
+    "type" : [ "string", "null" ],
+    "legacyName" : "ccc_id",
+    "logicalFormat" : "ALPHANUMERIC(20)"
+  }, {
+    "name" : "mov_insert_hms_date",
+    "type" : [ "string", "null" ],
+    "legacyName" : "mov_insert_hms_date",
+    "logicalFormat" : "TIMESTAMP",
+    "format" : "yyyy-MM-dd HH:mm:ss.SSSSSS"
+  } ]
+}

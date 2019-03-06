@@ -1,0 +1,596 @@
+{
+  "namespace" : "",
+  "name" : "t_kdat_paa",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "paisoalf_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_paisoalf",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entalfa_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_entalfa",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "persctpn_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_persctpn",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "cierre_date",
+    "type" : [ "string" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_cierre",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "ini_vig_time",
+    "type" : [ "string", "null" ],
+    "default" : 1513340829754,
+    "legacyName" : "tim_ini_vig",
+    "logicalFormat" : "TIMESTAMP"
+  }, {
+    "name" : "fin_vin_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_fin_vin",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "nacimi_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_nacimi",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "altapers_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_altapers",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "bajapers_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_bajapers",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "nombfj_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nombfj",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "unoapell_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_unoapell",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "dosapell_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_dosapell",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "empledos_number",
+    "type" : [ "int", "null" ],
+    "default" : 0,
+    "legacyName" : "qnu_empledos",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "idiocorr_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idiocorr",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "sit_esp_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_sit_esp",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "paisores_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisores",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "paisonac_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisonac",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "paisonad_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisonad",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "tipemple_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tipemple",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "formcli_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_formcli",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "regmatr_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_regmatr",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "tp_iden1_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tp_iden1",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "documps1_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_documps1",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "tp_iden2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tp_iden2",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "documps2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_documps2",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "tipiden3_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tipiden3",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "documps3_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_documps3",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "tip_ocup_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tip_ocup",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "finactiv_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_finactiv",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "factremp_amount",
+    "type" : [ "decimal(17, 2)", "null" ],
+    "default" : "1.0E17",
+    "legacyName" : "imp_factremp",
+    "logicalFormat" : "DECIMAL(17,2)"
+  }, {
+    "name" : "diisofac_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_diisofac",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "emailfj_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_emailfj",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "tptratam_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tptratam",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "tiporol_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tiporol",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "persona_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_persona",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "csexof_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_csexof",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "estcivil_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_estcivil",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "cnaecto_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_cnaecto",
+    "logicalFormat" : "ALPHANUMERIC(11)"
+  }, {
+    "name" : "sectcont_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_sectcont",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "subscont_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_subscont",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "aplremit_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_aplremit",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "cnocu_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_cnocu",
+    "logicalFormat" : "ALPHANUMERIC(5)"
+  }, {
+    "name" : "cbrdesem_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_cbrdesem",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "refdeuda_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_refdeuda",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "robinson_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_robinson",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "ultmodop_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_ultmodop",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "locprop_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_locprop",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "pisoprop_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_pisoprop",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "ingclien_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_ingclien",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "cargo_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_cargo",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "ninoscar_number",
+    "type" : [ "int", "null" ],
+    "default" : 0,
+    "legacyName" : "qnu_ninoscar",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "adultcar_number",
+    "type" : [ "int", "null" ],
+    "default" : 0,
+    "legacyName" : "qnu_adultcar",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "ambito_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_ambito",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "clienvip_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_clienvip",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "robinson_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_robinson",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "cnacempp_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_cnacempp",
+    "logicalFormat" : "ALPHANUMERIC(11)"
+  }, {
+    "name" : "paisempp_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisempp",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entiempl_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_entiempl",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "tpaltcar_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tpaltcar",
+    "logicalFormat" : "ALPHANUMERIC(6)"
+  }, {
+    "name" : "incrpemp_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_incrpemp",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "fundaemp_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_fundaemp",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "nomemprs_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nomemprs",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "incijudi_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_incijudi",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "moragrup_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_moragrup",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "oficlien_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_oficlien",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "ofiultmd_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_ofiultmd",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "moraenti_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_moraenti",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "nacimciu_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nacimciu",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "provnacm_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_provnacm",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "profcno_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_profcno",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "profcno_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_profcno",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "subtipod_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_subtipod",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "nomcomrs_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nomcomrs",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "sqregist_code",
+    "type" : [ "decimal(18)" ],
+    "default" : "1.0E18",
+    "legacyName" : "cod_sqregist",
+    "logicalFormat" : "DECIMAL(18)"
+  }, {
+    "name" : "accibbva_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_accibbva",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "clieepa_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_clieepa",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "compclie_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_compclie",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "perfdigi_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_perfdigi",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "sec_int_code",
+    "type" : [ "int" ],
+    "default" : 0,
+    "legacyName" : "cod_sec_int",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "mosaic_code",
+    "type" : [ "int", "null" ],
+    "default" : 0,
+    "legacyName" : "cod_mosaic",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "cliebx_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_cliebx",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "gruremot_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_gruremot",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "bbvacont_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_bbvacont",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "subtper_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_subtper",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "niveldae_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_niveldae",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "politexp_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_politexp",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "riesrba_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_riesrba",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "scorirba_number",
+    "type" : [ "decimal(18, 4)", "null" ],
+    "default" : "1.0E18",
+    "legacyName" : "qnu_scorirba",
+    "logicalFormat" : "DECIMAL(18,4)"
+  }, {
+    "name" : "diligrba_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_diligrba",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "cesado_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_cesado",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "altacto_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_altacto",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "canal_dv_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_canal_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "serv_dv_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_serv_dv",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "metident_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_metident",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "medio_dv_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_medio_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "validacl_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_validacl",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "valida_date",
+    "type" : [ "string", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_valida",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "tim_audit",
+    "type" : [ "string" ],
+    "default" : 1513340829756,
+    "legacyName" : "aud_tim",
+    "logicalFormat" : "TIMESTAMP"
+  } ]
+}

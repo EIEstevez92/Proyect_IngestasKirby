@@ -1,0 +1,68 @@
+﻿{
+	"namespace": "comp.erqm",
+	"name": "t_erqm_compl_comments_files",
+	"doc": "erqm",
+	"database": "raw",
+	"type": "record",
+
+	"fields":    [ {
+		"name": "complaint_comment_id",
+		"type": "int",
+		"legacyName": "COD_COMENREC",
+		"logicalFormat": "NUMBER(9)",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "complaint_id",
+		"type": "string",
+		"legacyName": "COD_EXPREC",
+		"logicalFormat": "NUMERIC LARGE",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "user_id",
+		"type": "string",
+		"legacyName": "COD_USER",
+		"logicalFormat": "ALPHANUMERIC(8)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "compl_comment_entry_date",
+		"type": "string",
+		"legacyName": "FEC_ALTACOM",
+		"logicalFormat": "DATE",
+		"format": "dd-MMM-yy",
+		"deleted": false,
+		"metadata": false,
+		"locale": "en_US",
+		"default": "01-Jan-00"
+	}, {
+		"name": "complaint_type_id",
+		"type": "string",
+		"legacyName": "COD_TIPO_REC",
+		"logicalFormat": "ALPHANUMERIC(3)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "complaint_comment_desc",
+		"type": "string",
+		"legacyName": "DES_COMENREC",
+		"logicalFormat": "ALPHANUMERIC(1000)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "closing_date",
+		"type": "string",
+		"logicalFormat": "DATE",
+		"format": "yyyy-MM-dd hh:mm:ss",
+		"deleted": false,
+		"metadata": true,
+		"default": "1900-01-01 00:00:00"
+	}]
+
+}

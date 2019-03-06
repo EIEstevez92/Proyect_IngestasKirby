@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Instrument_Roots xmlns="http://www.moodys.com/fdp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" file_type="Baseline" frequency="Weekly" generation_time="2017-11-19T01:00:00Z">
+	<Instrument_Root>
+		<Instrument_ID>825623189</Instrument_ID>
+		<Deal_number xsi:nil="true"/>
+		<Class_Code>834</Class_Code>
+		<Class_Text>Regular Bond/Debenture</Class_Text>
+		<Class_Short_Description>REG</Class_Short_Description>
+		<Dated_Date xsi:nil="true"/>
+		<ISO_Currency_Code>USD</ISO_Currency_Code>
+		<Currency_Multiple_Indicator>N</Currency_Multiple_Indicator>
+		<Maturity_Date>2031-07-27T00:00:00</Maturity_Date>
+		<Maturity_Year>2031</Maturity_Year>
+		<Sale_Date>2016-07-27T00:00:00</Sale_Date>
+		<Face_Amount_USD>30.0000000000</Face_Amount_USD>
+		<Credit_Linked_Indicator>N</Credit_Linked_Indicator>
+		<Takedown_Indicator>N</Takedown_Indicator>
+		<Security_Description xsi:nil="true"/>
+		<Instrument_Type_Code>23850</Instrument_Type_Code>
+		<Instrument_Type_Text>FIXED/FLT RT EURO MTNS</Instrument_Type_Text>
+		<Private_Placement_Code>24922</Private_Placement_Code>
+		<Private_Placement_Text>Not Applicable</Private_Placement_Text>
+		<Coupon_Type_Code>25</Coupon_Type_Code>
+		<Coupon_Type_Text>Fixed</Coupon_Type_Text>
+		<Coupon_Type_Short_Description>FIX</Coupon_Type_Short_Description>
+		<Coupon_Frequency_Code>11</Coupon_Frequency_Code>
+		<Coupon_Frequency_Text>Annual</Coupon_Frequency_Text>
+		<Coupon_Frequency_Short_Description>ANN</Coupon_Frequency_Short_Description>
+		<Coupon_Rate>4.5500</Coupon_Rate>
+		<Instrument_Description xsi:nil="true"/>
+		<Product_Line_Description xsi:nil="true"/>
+		<Series_Class_Text>Ser. 2016-999</Series_Class_Text>
+		<Market_Description>EUROMARKET</Market_Description>
+		<Face_Amount>30.0000000000</Face_Amount>
+		<Structured_Finance_Indicator>N</Structured_Finance_Indicator>
+		<Structured_Finance_Sequence_Number xsi:nil="true"/>
+		<Instrument_Ratings>
+			<Instrument_Rating>
+				<Instrument_ID>825623189</Instrument_ID>
+				<Rating_Class_Number>46613</Rating_Class_Number>
+				<Rating_Date>2017-06-28T07:34:58</Rating_Date>
+				<Moodys_Rating_ID>825623217</Moodys_Rating_ID>
+				<Rating_Level>I</Rating_Level>
+				<Rating_Class_Text>Senior Unsecured</Rating_Class_Text>
+				<Security_Class_Code>834</Security_Class_Code>
+				<Security_Class_Text>Regular Bond/Debenture</Security_Class_Text>
+				<Security_Class_Short_Description>REG</Security_Class_Short_Description>
+				<Duration_Code>25636</Duration_Code>
+				<Duration_Text>Long-Term Debt Rating</Duration_Text>
+				<Duration_Short_Description>LT</Duration_Short_Description>
+				<Seniority_Code>18744</Seniority_Code>
+				<Seniority_Text>Senior Unsecured</Seniority_Text>
+				<Seniority_Short_Description>SU</Seniority_Short_Description>
+				<Evaluation_Type_Code>25648</Evaluation_Type_Code>
+				<Evaluation_Type_Text>Credit Risk</Evaluation_Type_Text>
+				<Shadow_Code>19139</Shadow_Code>
+				<Shadow_Text>Corporate Finance Regular</Shadow_Text>
+				<Shadow_Short_Description>CFR</Shadow_Short_Description>
+				<Rating_Subclass_Code xsi:nil="true"/>
+				<Rating_Subclass_Text xsi:nil="true"/>
+				<Currency_Capd_Code>19142</Currency_Capd_Code>
+				<Currency_Capd_Text>Local Currency</Currency_Capd_Text>
+				<Rating_Text>NR</Rating_Text>
+				<Rating_Rank>0</Rating_Rank>
+				<Rating_Direction_Code>19102</Rating_Direction_Code>
+				<Rating_Direction_Text>DECISION NOT TO RATE</Rating_Direction_Text>
+				<Rating_Direction_Short_Description>NR</Rating_Direction_Short_Description>
+				<Rating_Type_Code>534</Rating_Type_Code>
+				<Rating_Type_Text>Long-Term Debt Rating</Rating_Type_Text>
+				<Rating_Type_Short_Description>LT</Rating_Type_Short_Description>
+				<Rating_Enhancement_Level>UND</Rating_Enhancement_Level>
+				<Rating_Local_Date>2017-06-28T07:34:58</Rating_Local_Date>
+				<Rating_Termination_Date xsi:nil="true"/>
+				<Rating_Termination_Local_Date xsi:nil="true"/>
+				<Rating_Reason_Code>25530</Rating_Reason_Code>
+				<Rating_Reason_Text>DECISION NOT TO RATE</Rating_Reason_Text>
+				<Rating_Currency_Code>30</Rating_Currency_Code>
+				<Rating_Currency_Text>USD</Rating_Currency_Text>
+				<Rating_Currency_ISO_Code>USD</Rating_Currency_ISO_Code>
+				<Rating_Monitor_Indicator>1</Rating_Monitor_Indicator>
+				<Rating_Office_ID>51</Rating_Office_ID>
+				<Shelf_Type_Code xsi:nil="true"/>
+				<Shelf_Type_Text xsi:nil="true"/>
+				<Shelf_Type_Short_Description xsi:nil="true"/>
+				<Initial_Rating_Indicator>Y</Initial_Rating_Indicator>
+				<Instrument_Watchlists xsi:nil="true"/>
+				<Instrument_Rating_Attributes>
+					<Instrument_Rating_Attribute>
+						<Instrument_Id>825623189</Instrument_Id>
+						<Rating_Attribute_Type_Code>5159697</Rating_Attribute_Type_Code>
+						<Rating_Attribute_Type_Text>Rating Office</Rating_Attribute_Type_Text>
+						<Rating_Class_Number>46613</Rating_Class_Number>
+						<Moodys_Rating_ID>825623217</Moodys_Rating_ID>
+						<Effective_Date>2017-06-28T07:34:58</Effective_Date>
+						<Termination_Date xsi:nil="true"/>
+						<Rating_Attribute_Code>5159710</Rating_Attribute_Code>
+						<Rating_Attribute_Text>New York - Moody's Investors Service</Rating_Attribute_Text>
+					</Instrument_Rating_Attribute>
+				</Instrument_Rating_Attributes>
+			</Instrument_Rating>
+		</Instrument_Ratings>
+		<Instrument_Supports xsi:nil="true"/>
+		<Instrument_Organizations>
+			<Instrument_Organization>
+				<Organization_ID>164500</Organization_ID>
+				<Moodys_Legal_Name>JPMORGAN CHASE BANK, N.A.</Moodys_Legal_Name>
+				<Instrument_ID>825623189</Instrument_ID>
+				<Organization_Role_Code>129</Organization_Role_Code>
+				<Organization_Role_Text>Issuer</Organization_Role_Text>
+				<Effective_Date>2017-06-12T00:00:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Instrument_Organization>
+			<Instrument_Organization>
+				<Organization_ID>806625144</Organization_ID>
+				<Moodys_Legal_Name>J.P. MORGAN (S.E.A.) LIMITED</Moodys_Legal_Name>
+				<Instrument_ID>825623189</Instrument_ID>
+				<Organization_Role_Code>25005</Organization_Role_Code>
+				<Organization_Role_Text>Dealer</Organization_Role_Text>
+				<Effective_Date>2017-06-12T00:00:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Instrument_Organization>
+			<Instrument_Organization>
+				<Organization_ID>807824437</Organization_ID>
+				<Moodys_Legal_Name>J.P. MORGAN SECURITIES (ASIA PACIFIC) LTD.</Moodys_Legal_Name>
+				<Instrument_ID>825623189</Instrument_ID>
+				<Organization_Role_Code>25005</Organization_Role_Code>
+				<Organization_Role_Text>Dealer</Organization_Role_Text>
+				<Effective_Date>2017-06-12T00:00:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Instrument_Organization>
+		</Instrument_Organizations>
+		<Instrument_Identifiers>
+			<Instrument_Identifier>
+				<Instrument_ID>825623189</Instrument_ID>
+				<ID_Type_Code>109</ID_Type_Code>
+				<ID_Type_Text>ISIN</ID_Type_Text>
+				<ID_Type_Short_Description>ISI</ID_Type_Short_Description>
+				<Instrument_ID_Value>XS1446694520</Instrument_ID_Value>
+			</Instrument_Identifier>
+			<Instrument_Identifier>
+				<Instrument_ID>825623189</Instrument_ID>
+				<ID_Type_Code>2002</ID_Type_Code>
+				<ID_Type_Text>Bloomberg Global Identifier</ID_Type_Text>
+				<ID_Type_Short_Description>BBG ID</ID_Type_Short_Description>
+				<Instrument_ID_Value>BBG00DGBSW99</Instrument_ID_Value>
+			</Instrument_Identifier>
+		</Instrument_Identifiers>
+		<Instrument_Attributes xsi:nil="true"/>
+		<Instrument_Markets>
+			<Instrument_Market>
+				<Instrument_ID>825623189</Instrument_ID>
+				<Domain_Number>806356849</Domain_Number>
+				<Domain_Name>EUROMARKET</Domain_Name>
+				<Effective_Date>2017-06-12T02:57:58</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Instrument_Market>
+		</Instrument_Markets>
+	</Instrument_Root>
+<Instrument_Roots/>

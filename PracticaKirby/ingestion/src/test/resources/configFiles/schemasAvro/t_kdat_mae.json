@@ -1,0 +1,338 @@
+{
+  "namespace" : "",
+  "name" : "t_kdco_mae",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "paisoalf_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_paisoalf",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entalfa_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_entalfa",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "idcontra_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_idcontra",
+    "logicalFormat" : "ALPHANUMERIC(26)"
+  }, {
+    "name" : "pgofipro_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgofipro",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "paisfol_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_paisfol",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "pgbancsb_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgbancsb",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "pgcofici_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgcofici",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "pgccontr_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgccontr",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "folio_code",
+    "type" : [ "decimal(14)" ],
+    "default" : "1.0E14",
+    "legacyName" : "cod_folio",
+    "logicalFormat" : "DECIMAL(14)"
+  }, {
+    "name" : "ctaextno_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_ctaextno",
+    "logicalFormat" : "ALPHANUMERIC(20)"
+  }, {
+    "name" : "idprodto_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_idprodto",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "prodfin_code",
+    "type" : [ "int64" ],
+    "default" : 0,
+    "legacyName" : "cod_prodfin",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "situcto_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_situcto",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "situmora_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_situmora",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "situdw_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_situdw",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "diisoalf_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_diisoalf",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "idiomiso_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_idiomiso",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "clasecto_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_clasecto",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "firmas_number",
+    "type" : [ "int32" ],
+    "default" : 0,
+    "legacyName" : "qnu_firmas",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "admonpg_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_admonpg",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "multidiv_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_multidiv",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "bloqueo_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_bloqueo",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "canal_dv_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_canal_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "matricu_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_matricu",
+    "logicalFormat" : "ALPHANUMERIC(11)"
+  }, {
+    "name" : "pgpaisco_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgpaisco",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "pgbancom_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgbancom",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "pgoficom_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgoficom",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "pgofible_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgofible",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "altapro_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_altapro",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "autopro_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_autopro",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "imprpro_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_imprpro",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "altacto_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_altacto",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "vigorcto_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_vigorcto",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "ultmod_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_ultmod",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "vencto_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_vencto",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "cancel_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_cancel",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "tipocor_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_tipocor",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "nivconfi_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_nivconfi",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "tituliza_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_tituliza",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "usuario_audit",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "aud_usuario",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "timfmod_audit",
+    "type" : [ "timestamp_millis" ],
+    "default" : 1513591260773,
+    "legacyName" : "aud_timfmod",
+    "logicalFormat" : "TIMESTAMP"
+  }, {
+    "name" : "pgdestin_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgdestin",
+    "logicalFormat" : "ALPHANUMERIC(5)"
+  }, {
+    "name" : "pgsubdes_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_pgsubdes",
+    "logicalFormat" : "ALPHANUMERIC(5)"
+  }, {
+    "name" : "garcoble_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_garcoble",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "admonges_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_admonges",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "medioen_code",
+    "type" : [ "int32" ],
+    "default" : 0,
+    "legacyName" : "cod_medioen",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "ccolect_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_ccolect",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "paisaud_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_paisaud",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entiaud_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_entiaud",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "oficaud_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_oficaud",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "medio_dv_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_medio_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "admonpg_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-18",
+    "legacyName" : "fec_admonpg",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "admonpg_hour",
+    "type" : [ "string" ],
+    "default" : "11:01:00",
+    "legacyName" : "hms_admonpg",
+    "logicalFormat" : "TIME"
+  }, {
+    "name" : "pdte_reg_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_pdte_reg",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "epa_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_epa",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  } ]
+}

@@ -1,0 +1,343 @@
+﻿{
+	"namespace": "comp.ebou",
+	"name": "t_ebou_movement_accounts",
+	"doc": "ebou",
+	"database": "Parquet",
+	"type": "record",
+
+	"fields":    [ {
+				"name": "transaction_boss_id",
+				"type": "string",
+				"legacyName": "transaction_boss_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "external_transaction_id",
+				"type": "string",
+				"legacyName": "external_transaction_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "concept_trans_desc",
+				"type": "string",
+				"legacyName": "concept_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "accounting_boss_date",
+				"type": "date",
+				"legacyName": "accounting_boss_date",
+				"logicalFormat": "string",
+				"format": "yyyy-MM-dd HH:mm:ss.SSSSSS",
+				"deleted": false,
+				"metadata": false,
+				"default": "1900-01-01 00:00:00.000000"
+			}, { 
+				"name": "operation_date",
+				"type": ["date", "null"],
+				"legacyName": "operation_date",
+				"logicalFormat": "string",
+				"format": "yyyy-MM-dd HH:mm:ss.SSSSSS",
+				"deleted": false,
+				"metadata": false,
+				"default": "1900-01-01 00:00:00.000000"
+			}, { 
+				"name": "value_trans_date",
+				"type": ["date", "null"],
+				"legacyName": "value_trans_date",
+				"logicalFormat": "string",
+				"format": "yyyy-MM-dd HH:mm:ss.SSSSSS",
+				"deleted": false,
+				"metadata": false,
+				"default": "1900-01-01 00:00:00.000000"
+			}, { 
+				"name": "trans_boss_amount",
+				"type": "decimal(17,2)",
+				"legacyName": "trans_boss_amount",
+				"logicalFormat": "decimal(17,2)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, { 
+				"name": "category_trans_id",
+				"type": ["string", "null"],
+				"legacyName": "category_trans_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "freetext_trans_desc",
+				"type": ["string", "null"],
+				"legacyName": "freetext_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "observation_trans_desc",
+				"type": ["string", "null"],
+				"legacyName": "observation_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "multibank_contract_id",
+				"type": "string",
+				"legacyName": "multibank_contract_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "internal_contract_id",
+				"type": "string",
+				"legacyName": "internal_contract_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "iban_boss_id",
+				"type": "string",
+				"legacyName": "iban_boss_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "alias_contract_desc",
+				"type": ["string", "null"],
+				"legacyName": "alias_contract_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "category_lev1_trans_desc",
+				"type": ["string", "null"],
+				"legacyName": "category_lev1_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "category_lev2_trans_desc",
+				"type": ["string", "null"],
+				"legacyName": "category_lev2_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "category_lev3_trans_desc",
+				"type": ["string", "null"],
+				"legacyName": "category_lev3_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "category_lev4_trans_desc",
+				"type": ["string", "null"],
+				"legacyName": "category_lev4_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "category_lev5_trans_desc",
+				"type": ["string", "null"],
+				"legacyName": "category_lev5_trans_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "enterprise_boss_id",
+				"type": "int32",
+				"legacyName": "enterprise_boss_id",
+				"logicalFormat": "int",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, { 
+				"name": "enterprise_personal_id",
+				"type": "string",
+				"legacyName": "enterprise_personal_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "enterprise_personal_type",
+				"type": "string",
+				"legacyName": "enterprise_personal_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "enterprise_name",
+				"type": ["string", "null"],
+				"legacyName": "enterprise_name",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "enterprise_extended_name",
+				"type": ["string", "null"],
+				"legacyName": "enterprise_extended_name",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "entity_boss_id",
+				"type": "string",
+				"legacyName": "entity_boss_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ent_s_boss_name",
+				"type": ["string", "null"],
+				"legacyName": "ent_s_boss_name",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ent_f_boss_name",
+				"type": ["string", "null"],
+				"legacyName": "ent_f_boss_name",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_boss_id",
+				"type": "string",
+				"legacyName": "currency_boss_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "vendor_category_id",
+				"type": ["string", "null"],
+				"legacyName": "vendor_category_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "provider_category_id",
+				"type": ["string", "null"],
+				"legacyName": "provider_category_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "conciliated_transaction_id",
+				"type": ["string", "null"],
+				"legacyName": "conciliated_transaction_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "correspondence_concept_id",
+				"type": ["string", "null"],
+				"legacyName": "correspondence_concept_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "operation_trans_id",
+				"type": ["string", "null"],
+				"legacyName": "operation_trans_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "commercial_locality_id",
+				"type": ["string", "null"],
+				"legacyName": "commercial_locality_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "comercial_locality_name",
+				"type": ["string", "null"],
+				"legacyName": "comercial_locality_name",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "provider_id",
+				"type": ["string", "null"],
+				"legacyName": "provider_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "provider_desc",
+				"type": ["string", "null"],
+				"legacyName": "provider_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "visible_type",
+				"type": ["string", "null"],
+				"legacyName": "visible_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "most_recent_update_date",
+				"type": ["date", "null"],
+				"legacyName": "most_recent_update_date",
+				"logicalFormat": "string",
+				"format": "yyyy-MM-dd HH:mm:ss.SSSSSS",
+				"deleted": false,
+				"metadata": false,
+				"default": "1900-01-01 00:00:00.000000"
+			}, { 
+				"name": "execution_date",
+				"type": "date",
+				"legacyName": "execution_date",
+				"logicalFormat": "string",
+				"format": "yyyy-MM-dd HH:mm:ss.SSSSSS",
+				"deleted": false,
+				"metadata": false,
+				"default": "1900-01-01 00:00:00.000000"
+			}, { 
+				"name": "partition_date",
+				"type": "string",
+				"legacyName": "",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}]
+
+}

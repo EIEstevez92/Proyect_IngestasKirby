@@ -1,0 +1,320 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>api - kirby-api 2.3.0-SNAPSHOT API - com.datio.kirby.api</title>
+          <meta name="description" content="api - kirby - api 2.3.0 - SNAPSHOT API - com.datio.kirby.api" />
+          <meta name="keywords" content="api kirby api 2.3.0 SNAPSHOT API com.datio.kirby.api" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'com.datio.kirby.api.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="com">com</a>.<a href="../../package.html" class="extype" name="com.datio">datio</a>.<a href="../package.html" class="extype" name="com.datio.kirby">kirby</a></p>
+        <h1>api</h1><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">api</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="com.datio.kirby.api.ColumnTransformation" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ColumnTransformationextendsTransformation"></a>
+      <a id="ColumnTransformation:ColumnTransformation"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ColumnTransformation.html"><span class="name">ColumnTransformation</span></a><span class="result"> extends <a href="Transformation.html" class="extype" name="com.datio.kirby.api.Transformation">Transformation</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@ColumnTransformationextendsTransformation" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Column transformation api trait.</p><div class="fullcomment"><div class="comment cmt"><p>Column transformation api trait.
+To implement column transformations, extends this trait.
+</p></div></div>
+    </li><li name="com.datio.kirby.api.Input" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="InputextendsLazyLogging"></a>
+      <a id="Input:Input"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Input.html"><span class="name">Input</span></a><span class="result"> extends <span class="extype" name="com.typesafe.scalalogging.LazyLogging">LazyLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@InputextendsLazyLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Input api trait.</p><div class="fullcomment"><div class="comment cmt"><p>Input api trait.
+To implement inputs, extends this trait.
+</p></div></div>
+    </li><li name="com.datio.kirby.api.Output" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="OutputextendsLazyLoggingwithApplyFormatwithReprocess"></a>
+      <a id="Output:Output"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Output.html"><span class="name">Output</span></a><span class="result"> extends <span class="extype" name="com.typesafe.scalalogging.LazyLogging">LazyLogging</span> with <a href="implicits/ApplyFormat.html" class="extype" name="com.datio.kirby.api.implicits.ApplyFormat">ApplyFormat</a> with <a href="Reprocess.html" class="extype" name="com.datio.kirby.api.Reprocess">Reprocess</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@OutputextendsLazyLoggingwithApplyFormatwithReprocess" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Output api trait.</p><div class="fullcomment"><div class="comment cmt"><p>Output api trait.
+To implement outputs, extends this trait.
+</p></div></div>
+    </li><li name="com.datio.kirby.api.Reprocess" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ReprocessextendsLazyLoggingwithApplyFormatwithFileUtils"></a>
+      <a id="Reprocess:Reprocess"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Reprocess.html"><span class="name">Reprocess</span></a><span class="result"> extends <span class="extype" name="com.typesafe.scalalogging.LazyLogging">LazyLogging</span> with <a href="implicits/ApplyFormat.html" class="extype" name="com.datio.kirby.api.implicits.ApplyFormat">ApplyFormat</a> with <a href="util/FileUtils.html" class="extype" name="com.datio.kirby.api.util.FileUtils">FileUtils</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@ReprocessextendsLazyLoggingwithApplyFormatwithFileUtils" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Output api trait.</p><div class="fullcomment"><div class="comment cmt"><p>Output api trait.
+To implement outputs, extends this trait.
+</p></div></div>
+    </li><li name="com.datio.kirby.api.RowTransformation" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="RowTransformationextendsTransformation"></a>
+      <a id="RowTransformation:RowTransformation"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="RowTransformation.html"><span class="name">RowTransformation</span></a><span class="result"> extends <a href="Transformation.html" class="extype" name="com.datio.kirby.api.Transformation">Transformation</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@RowTransformationextendsTransformation" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Row transformation api trait.</p><div class="fullcomment"><div class="comment cmt"><p>Row transformation api trait.
+To implement row transformations, extends this trait.
+</p></div></div>
+    </li><li name="com.datio.kirby.api.Transformation" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="TransformationextendsLazyLogging"></a>
+      <a id="Transformation:Transformation"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Transformation.html"><span class="name">Transformation</span></a><span class="result"> extends <span class="extype" name="com.typesafe.scalalogging.LazyLogging">LazyLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@TransformationextendsLazyLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Transformation api trait.</p><div class="fullcomment"><div class="comment cmt"><p>Transformation api trait.
+To implement transformations, extends ColumnTransformation or RowTransformation.
+</p></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="com.datio.kirby.api.CustomFixedLocaleRegex" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CustomFixedLocaleRegex"></a>
+      <a id="CustomFixedLocaleRegex:CustomFixedLocaleRegex"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CustomFixedLocaleRegex$.html"><span class="name">CustomFixedLocaleRegex</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@CustomFixedLocaleRegex" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.datio.kirby.api.LogicalFormatRegex" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LogicalFormatRegex"></a>
+      <a id="LogicalFormatRegex:LogicalFormatRegex"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LogicalFormatRegex$.html"><span class="name">LogicalFormatRegex</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@LogicalFormatRegex" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.datio.kirby.api.errors" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="errors"></a>
+      <a id="errors:errors"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="errors/package.html"><span class="name">errors</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@errors" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.datio.kirby.api.exceptions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="exceptions"></a>
+      <a id="exceptions:exceptions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="exceptions/package.html"><span class="name">exceptions</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@exceptions" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.datio.kirby.api.implicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="implicits"></a>
+      <a id="implicits:implicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="implicits/package.html"><span class="name">implicits</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@implicits" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="com.datio.kirby.api.util" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="util"></a>
+      <a id="util:util"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="util/package.html"><span class="name">util</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#com.datio.kirby.api.package@util" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

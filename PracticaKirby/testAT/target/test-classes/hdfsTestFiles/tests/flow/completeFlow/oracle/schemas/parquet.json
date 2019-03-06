@@ -1,0 +1,67 @@
+﻿{
+	"namespace": "comp.kdco_co",
+	"name": "t_kdco_co_compl_comments_files",
+	"doc": "kdco_co",
+	"database": "Parquet",
+	"type": "record",
+
+	"fields":    [ {
+				"name": "complaint_comment_id",
+				"type": "int32",
+				"legacyName": "complaint_comment_id",
+				"logicalFormat": "int",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, { 
+				"name": "complaint_id",
+				"type": "string",
+				"legacyName": "complaint_id",
+				"logicalFormat": "decimal(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, { 
+				"name": "user_id",
+				"type": "string",
+				"legacyName": "user_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "compl_comment_entry_date",
+				"type": "date",
+				"legacyName": "compl_comment_entry_date",
+				"logicalFormat": "string",
+				"format": "yyyy-MM-dd hh:mm:ss",
+				"deleted": false,
+				"metadata": false,
+				"default": "1900-01-01 00:00:00"
+			}, { 
+				"name": "complaint_type_id",
+				"type": "string",
+				"legacyName": "complaint_type_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "complaint_comment_desc",
+				"type": "string",
+				"legacyName": "complaint_comment_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "closing_date",
+				"type": ["date", "null"],
+				"legacyName": "closing_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}]
+
+}

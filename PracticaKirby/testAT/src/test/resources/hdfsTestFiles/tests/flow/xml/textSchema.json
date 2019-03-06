@@ -1,0 +1,38 @@
+{
+  "namespace" : "",
+  "name" : "t_kdco_mae",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "author",
+    "type" : [ "string" ],
+    "legacyName" : "author",
+    "size" : 2000
+  }, {
+    "name" : "title",
+    "type" : [ "string" ],
+    "legacyName" : "title",
+    "size" : 4000
+  }, {
+    "name" : "genre",
+    "type" : [ "string" ],
+    "legacyName" : "genre",
+    "size" : 2000
+  }, {
+    "name" : "price",
+    "type" : [ "string" ],
+    "legacyName" : "price",
+    "size" : 4000
+  }, {
+    "name" : "publish_date",
+    "type" : [ "string" ],
+    "legacyName" : "publish_date",
+    "size" : 2000
+  }, {
+    "name" : "description",
+    "type" : [ "string" ],
+    "legacyName" : "description",
+    "size" : 4000
+  } ]
+}

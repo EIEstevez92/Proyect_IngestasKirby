@@ -1,0 +1,182 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Kirby configuration schema",
+    "description": "Schema for Kirby configuration files",
+    "type": "object",
+    "version": "0.0.1",
+    "properties": {
+        "kirby": {
+            "description": "Schema used to parse input data for CSV format.",
+            "type": "object",
+            "properties": {
+                "sparkMetrics": {
+                    "description": "metric",
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "description": "sparkMetrics.listener",
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "output": {
+                            "description": "sparkMetrics.output",
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "description": "sparkMetrics.output.type",
+                                    "type": "string"
+                                },
+                                "topic": {
+                                    "description": "sparkMetrics.output.topic",
+                                    "type": "string"
+                                },
+                                "key": {
+                                    "description": "sparkMetrics.output.key",
+                                    "type": "string"
+                                },
+                                "bootstrapServers": {
+                                    "description": "sparkMetrics.output.bootstrapServers",
+                                    "type": "string"
+                                },
+                                "url": {
+                                    "description": "sparkMetrics.output.url",
+                                    "type": "string"
+                                },
+                                "auth": {
+                                    "description": "sparkMetrics.output.auth",
+                                    "type": "boolean"
+                                },
+                                "user": {
+                                    "description": "sparkMetrics.output.user",
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "description": "sparkMetrics.output.password",
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "input": {
+                    "description": "Input",
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "description": "input.type",
+                            "type": "string"
+                        },
+                        "class": {
+                            "description": "input.class",
+                            "type": "string"
+                        },
+                        "paths": {
+                            "description": "input.paths",
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "schema": {
+                            "description": "Schema used to parse input data.",
+                            "type": "object",
+                            "properties": {
+                                "path": {
+                                    "description": "schema.pathSchemaToValidate",
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    "required": [
+                        "type",
+                        "paths"
+                    ]
+                },
+                "transformations": {
+                    "description": "Transformations accept a list of transformation of 2 types: column transformations and row transformations. Both of them can be combined in any order.",
+                    "type": "array",
+                    "items": {
+                        "description": "transformations[index]",
+                        "type": "object",
+                        "required": ["type"],
+                        "properties": {
+                            "type": {
+                                "description": "item.type",
+                                "type": "string"
+                            },
+                            "class": {
+                                "description": "item.class",
+                                "type": "string"
+                            },
+                            "field": {
+                                "description": "item.field",
+                                "type": "string"
+                            },
+                            "matcherList": {
+                                "description": "item.matcherList",
+                                "type": "string"
+                            },
+                            "threshold": {
+                                "description": "item.threshold",
+                                "type": "number"
+                            },
+                            "thresholdType": {
+                                "description": "item.thresholdType",
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "description": "Output",
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "description": "output.type",
+                            "type": "string"
+                        },
+                        "class": {
+                            "description": "output.class",
+                            "type": "string"
+                        },
+                        "path": {
+                            "description": "output.path",
+                            "type": "string"
+                        },
+                        "mode": {
+                            "description": "output.mode",
+                            "type": "string"
+                        },
+                        "schema": {
+                            "description": "Schema used to validate output data.",
+                            "type": "object",
+                            "properties": {
+                                "path": {
+                                    "description": "schema.pathSchemaToValidate",
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "path"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "type",
+                        "path",
+                        "schema"
+                    ]
+                }
+            },
+            "required": [
+                "input",
+                "output"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "required": ["kirby"]
+}

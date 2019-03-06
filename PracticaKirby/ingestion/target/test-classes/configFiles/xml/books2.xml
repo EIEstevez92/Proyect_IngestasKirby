@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="bk101">
+      <Author>Gambardella, Matthew</Author>
+      <Title>XML Developer's Guide</Title>
+      <Genre>Computer</Genre>
+      <Price_Changed>44.95</Price_Changed>
+      <Publish_Date>2000-10-01</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>
+
+
+         An in-depth look at creating applications
+         with XML.This manual describes Oracle XML DB, and how you can use it to store, generate, manipulate, manage,
+         and query XML data in the database.
+
+
+         After introducing you to the heart of Oracle XML DB, namely the XMLType framework and Oracle XML DB repository,
+         the manual provides a brief introduction to design criteria to consider when planning your Oracle XML DB
+         application. It provides examples of how and where you can use Oracle XML DB.
+
+
+         The manual then describes ways you can store and retrieve XML data using Oracle XML DB, APIs for manipulating
+         XMLType data, and ways you can view, generate, transform, and search on existing XML data. The remainder of
+         the manual discusses how to use Oracle XML DB repository, including versioning and security,
+         how to access and manipulate repository resources using protocols, SQL, PL/SQL, or Java, and how to manage
+         your Oracle XML DB application using Oracle Enterprise Manager. It also introduces you to XML messaging and
+         Oracle Streams Advanced Queuing XMLType support.
+      </Description_Description_Description_Description_Description_Description_Description_Description></book><book id="bk102">
+      <Author>Ralls, Kim</Author>
+      <Title>Midnight Rain</Title>
+      <Genre>Fantasy</Genre>
+      <Price_Changed>5.95</Price_Changed>
+      <Publish_Date>2000-12-16</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk103">
+      <Author>Corets, Eva</Author>
+      <Title>Maeve Ascendant</Title>
+      <Genre>Fantasy</Genre>
+      <Price_Changed>5.95</Price_Changed>
+      <Publish_Date>2000-11-17</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk104">
+      <Author>Corets, Eva</Author>
+      <Title>Oberon's Legacy</Title>
+      <Genre>Fantasy</Genre>
+      <Price_Changed>5.95</Price_Changed>
+      <Publish_Date>2001-03-10</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk105">
+      <Author>Corets, Eva</Author>
+      <Title>The Sundered Grail</Title>
+      <Genre>Fantasy</Genre>
+      <Price_Changed>5.95</Price_Changed>
+      <Publish_Date>2001-09-10</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon's Legacy.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk106">
+      <Author>Randall, Cynthia</Author>
+      <Title>Lover Birds</Title>
+      <Genre>Romance</Genre>
+      <Price_Changed>4.95</Price_Changed>
+      <Publish_Date>2000-09-02</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk107">
+      <Author>Thurman, Paula</Author>
+      <Title>Splish Splash</Title>
+      <Genre>Romance</Genre>
+      <Price_Changed>4.95</Price_Changed>
+      <Publish_Date>2000-11-02</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk108">
+      <Author>Knorr, Stefan</Author>
+      <Title>Creepy Crawlies</Title>
+      <Genre>Horror</Genre>
+      <Price_Changed>4.95</Price_Changed>
+      <Publish_Date>2000-12-06</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk109">
+      <Author>Kress, Peter</Author>
+      <Title>Paradox Lost</Title>
+      <Genre>Science Fiction</Genre>
+      <Price_Changed>6.95</Price_Changed>
+      <Publish_Date>2000-11-02</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk110">
+      <Author>O'Brien, Tim</Author>
+      <Title>Microsoft .NET: The Programming Bible</Title>
+      <Genre>Computer</Genre>
+      <Price_Changed>36.95</Price_Changed>
+      <Publish_Date>2000-12-09</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>Microsoft's .NET initiative is explored in 
+      detail in this deep programmer's reference.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk111">
+      <Author>O'Brien, Tim</Author>
+      <Title>MSXML3: A Comprehensive Guide</Title>
+      <Genre>Computer</Genre>
+      <Price_Changed>36.95</Price_Changed>
+      <Publish_Date>2000-12-01</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+   <book id="bk112">
+      <Author>Galos, Mike</Author>
+      <Title>Visual Studio 7: A Comprehensive Guide</Title>
+      <Genre>Computer</Genre>
+      <Price_Changed>49.95</Price_Changed>
+      <Publish_Date>2001-04-16</Publish_Date>
+      <Description_Description_Description_Description_Description_Description_Description_Description>Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.</Description_Description_Description_Description_Description_Description_Description_Description>
+   </book>
+</catalog>

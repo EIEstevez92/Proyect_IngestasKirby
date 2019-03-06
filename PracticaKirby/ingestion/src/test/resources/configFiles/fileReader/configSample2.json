@@ -1,0 +1,24 @@
+{
+  "namespace" : "",
+  "name" : "checks",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "field1PK",
+    "type" : [ "string" ],
+    "legacyName" : "field_1"
+  }, {
+    "name" : "field2PK",
+    "type" : [ "string", "null" ],
+    "legacyName" : "field_2"
+  }, {
+    "name" : "field3",
+    "type" : [ "string" ],
+    "legacyName" : "field_3"
+  }, {
+    "name" : "field4",
+    "type" : [ "string", "null" ],
+    "legacyName" : "field_4"
+  } ]
+}

@@ -1,0 +1,1028 @@
+﻿{
+	"namespace": "comp.qpab",
+	"name": "t_qpab_rop",
+	"doc": "qpab",
+	"database": "Avro",
+	"type": "record",
+
+	"fields":    [ {
+				"name": "ht_accounting_1_date",
+				"type": "string",
+				"legacyName": "FEC_CONTABLE_1",
+				"logicalFormat": "ALPHANUMERIC(10)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "entity_id",
+				"type": "string",
+				"legacyName": "COD_ENTALFA",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "country_id",
+				"type": "string",
+				"legacyName": "COD_PAISOALF",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "operation_branch_id",
+				"type": "string",
+				"legacyName": "COD_OFIALFA",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "branch_terminal_post_id",
+				"type": "string",
+				"legacyName": "COD_PUESTOT",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "uid_number",
+				"type": "string",
+				"legacyName": "QNU_UID",
+				"logicalFormat": "DECIMAL(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_distr_channel_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_CANAL_DV",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_distr_means_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_SUBCANL",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "physical_origin_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_ORIGFIS",
+				"logicalFormat": "ALPHANUMERIC(16)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "user_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_USUARIO",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "language_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_IDIOMISO",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "batch_rop_number",
+				"type": ["string", "null"],
+				"legacyName": "QNU_LOTEROP",
+				"logicalFormat": "DECIMAL(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "batch_rop_hms_date",
+				"type": ["string", "null"],
+				"legacyName": "HMS_LOTE",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_accounting_date",
+				"type": ["string", "null"],
+				"legacyName": "FEC_CONTABLE",
+				"logicalFormat": "ALPHANUMERIC(10)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "transaction_date",
+				"type": ["string", "null"],
+				"legacyName": "FEC_OPE",
+				"logicalFormat": "DATE",
+				"format": "yyyy-MM-dd",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "execution_date",
+				"type": ["string", "null"],
+				"legacyName": "FEC_EJEC",
+				"logicalFormat": "ALPHANUMERIC(10)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_execution_hms_date",
+				"type": ["string", "null"],
+				"legacyName": "HMS_EJEC",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "auth_status_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_ESTADAUT",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "auth_user_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_USUAUTOR",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "auth_number",
+				"type": ["string", "null"],
+				"legacyName": "QNU_NSEQ",
+				"logicalFormat": "DECIMAL(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "error_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_ERRAVI",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "error_severity_degree_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_SEVERR",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "tranfis_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TRANFIS",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rop_source_iban_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_IBANORIG",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "source_acc_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_CTAORIG",
+				"logicalFormat": "ALPHANUMERIC(30)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "source_country_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_PAISORIG",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rop_dest_iban_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_IBANDEST",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "destination_acc_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_CTADEST",
+				"logicalFormat": "ALPHANUMERIC(30)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "destination_country_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_PAISEST",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "customer_type_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TICLIET",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rop_customer_doc_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DOCCLI",
+				"logicalFormat": "ALPHANUMERIC(20)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "transaction_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TXLOG",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_transaction_type",
+				"type": ["string", "null"],
+				"legacyName": "COD_TIOPERC",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_transaction_sub_type",
+				"type": ["string", "null"],
+				"legacyName": "COD_SUBTIOP",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_version_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_VRSNOP",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "uid_related_id",
+				"type": ["string", "null"],
+				"legacyName": "QNU_UIDRELAC",
+				"logicalFormat": "DECIMAL(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "acc_oper_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_INDCONT",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIISOALF",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_oper_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_TOT",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ref_1_type_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TIPREF1",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ref_1_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_REF1",
+				"logicalFormat": "ALPHANUMERIC(40)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ref_2_type_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TIPREF2",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ref_2_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_REF2",
+				"logicalFormat": "ALPHANUMERIC(40)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_1_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TOT01",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_1_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIISOAL1",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "debit_credit_1_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_INDDEHA1",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_1_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_IMPRT01",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_2_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TOT02",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_2_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIISOAL2",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "debit_credit_2_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_INDDEHA2",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_2_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_IMPRT02",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "operation_rms_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_RMSOPER",
+				"logicalFormat": "DECIMAL(18)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ori_rms_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIVORIG",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ori_rms_total_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_TOTORIG",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rms_int_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIVINT",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rms_interest_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_INTRMS",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rms_fee_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIVCOM",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rms_fee_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_COMRMS",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rms_exp_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIVGAS",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rms_expenses_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_GASTORMS",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "program_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_PROGRAMA",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "customer_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_PERSCTPN",
+				"logicalFormat": "ALPHANUMERIC(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "error_var_1_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_ERRORVA1",
+				"logicalFormat": "ALPHANUMERIC(15)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "error_var_2_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_ERRORVA2",
+				"logicalFormat": "ALPHANUMERIC(15)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "oper_concept_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_CONCOPER",
+				"logicalFormat": "ALPHANUMERIC(20)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "oper_branch_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_OFIOPERT",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "oper_entity_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_ENTOPERT",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "obs_apl_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_OBSERVDE",
+				"logicalFormat": "ALPHANUMERIC(40)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_3_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TOT03",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_3_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIISOAL3",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "debit_credit_3_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_INDDEHA3",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_3_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_IMPRT03",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_4_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TOT04",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_4_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIISOAL4",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "debit_credit_4_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_INDDEHA4",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_4_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_IMPRT04",
+				"logicalFormat": "DECIMAL(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "var_part_reg_number",
+				"type": ["string", "null"],
+				"legacyName": "QNU_ROP",
+				"logicalFormat": "DECIMAL(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rop_transaction_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_TIPOTRN",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "batch_details_number",
+				"type": ["string", "null"],
+				"legacyName": "QNU_NDETLOTE",
+				"logicalFormat": "DECIMAL(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "signature_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_FIRMA",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "source_application_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_APLICAC",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "digital_oper_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_OPERACD",
+				"logicalFormat": "ALPHANUMERIC(2)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "doc_ref_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_REFEXTE",
+				"logicalFormat": "ALPHANUMERIC(30)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "service_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_SERV_DV",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_transaction_request_date",
+				"type": ["string", "null"],
+				"legacyName": "FEC_CANAL",
+				"logicalFormat": "ALPHANUMERIC(10)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ht_transaction_request_hms_date",
+				"type": ["string", "null"],
+				"legacyName": "HMS_CANAL",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_5_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIISOALB",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "currency_6_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DIISOALS",
+				"logicalFormat": "ALPHANUMERIC(3)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "auto_recording_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_AUTODIAR",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "transaction_timeout_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_TIMETRAN",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "time_tr_timeout_number",
+				"type": ["string", "null"],
+				"legacyName": "QNU_TIMETRAN",
+				"logicalFormat": "DECIMAL(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "process_time_tr_number",
+				"type": ["string", "null"],
+				"legacyName": "QNU_TIMEPROC",
+				"logicalFormat": "DECIMAL(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "type_code_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TIPIDENT",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "personal_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_DOCUMPS",
+				"logicalFormat": "ALPHANUMERIC(25)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "contact_identif_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_IDCONTAC",
+				"logicalFormat": "ALPHANUMERIC(40)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "digital_sig_cancel_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_ANULFIRM",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "recycle_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_RECICLAD",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "recycling_cancel_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_ANULREC",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "external_box_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_CAJAEXT",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "ext_box_cancel_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_ANULCAJA",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "effective_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_EFECTIVO",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_in_recycler_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_TOTINREC",
+				"logicalFormat": "DECIMAL(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_dep_ext_box_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_TOTINCAJ",
+				"logicalFormat": "DECIMAL(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_disp_recycler_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_TOTDIREC",
+				"logicalFormat": "DECIMAL(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "total_disp_ext_box_amount",
+				"type": ["string", "null"],
+				"legacyName": "IMP_TOTDICAJ",
+				"logicalFormat": "DECIMAL(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "start_execution_date",
+				"type": ["string", "null"],
+				"legacyName": "TIM_EJECINI",
+				"logicalFormat": "ALPHANUMERIC(26)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "end_execution_date",
+				"type": ["string", "null"],
+				"legacyName": "TIM_EJECFIN",
+				"logicalFormat": "ALPHANUMERIC(26)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "device_date",
+				"type": ["string", "null"],
+				"legacyName": "TIM_DISPOSIT",
+				"logicalFormat": "ALPHANUMERIC(26)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "requested_id_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_IDPETI",
+				"logicalFormat": "ALPHANUMERIC(40)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "service_id_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_IDSERV",
+				"logicalFormat": "ALPHANUMERIC(40)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "error_application_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_APLERROR",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "error_table_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_TABERROR",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "sql_error_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_SQLERROR",
+				"logicalFormat": "DECIMAL(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "program_error_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_PGMERROR",
+				"logicalFormat": "ALPHANUMERIC(8)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "apxnomma_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_APXNOMMA",
+				"logicalFormat": "ALPHANUMERIC(20)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "apxgruse_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_APXGRUSE",
+				"logicalFormat": "ALPHANUMERIC(20)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "apxipl_date",
+				"type": ["string", "null"],
+				"legacyName": "TIM_APXIPL",
+				"logicalFormat": "ALPHANUMERIC(26)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "consumer_app_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_APLAAP",
+				"logicalFormat": "ALPHANUMERIC(12)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "app_consumer_app_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_APLAPP",
+				"logicalFormat": "ALPHANUMERIC(12)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "int_app_user_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_UORIGIN",
+				"logicalFormat": "ALPHANUMERIC(12)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "http_ide_device_desc",
+				"type": ["string", "null"],
+				"legacyName": "DES_UAGENT",
+				"logicalFormat": "ALPHANUMERIC(200)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "service_exe_user_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_UGEST",
+				"logicalFormat": "ALPHANUMERIC(25)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "security_mac_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_MACSEG",
+				"logicalFormat": "ALPHANUMERIC(16)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "entry_transaction_type",
+				"type": ["string", "null"],
+				"legacyName": "XTI_TRXCAB",
+				"logicalFormat": "ALPHANUMERIC(1)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "header_id",
+				"type": ["string", "null"],
+				"legacyName": "COD_CABIN",
+				"logicalFormat": "ALPHANUMERIC(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "rem_time_exe_number",
+				"type": ["string", "null"],
+				"legacyName": "QNU_TIMRESTO",
+				"logicalFormat": "DECIMAL(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, { 
+				"name": "closing_date",
+				"type": "string",
+				"legacyName": "N/A",
+				"logicalFormat": "DATE",
+				"format": "yyyy-MM-dd",
+				"deleted": false,
+				"metadata": true,
+				"default": "1900-01-01"
+			}]
+
+}

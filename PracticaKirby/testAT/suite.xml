@@ -1,0 +1,7 @@
+<suite name="test-at" verbose="10" parallel="instances" thread-count="1">
+    <test name="default acceptance tests">
+        <packages>
+            <package name="com.datio.kirby.*"/>
+        </packages>
+    </test>
+</suite>

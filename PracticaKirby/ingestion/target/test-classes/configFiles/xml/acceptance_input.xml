@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Organization_Roots xmlns="http://www.moodys.com/fdp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" file_type="Baseline" frequency="Hourly-12" generation_time="2017-02-13T12:00:00Z">
+	<Organization_Root>
+		<Organization_ID>821216559</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>N</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>N</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>N</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>N</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2688</Organization_Type_Code>
+		<Organization_Type_Text>Corporation</Organization_Type_Text>
+		<County xsi:nil="true"/>
+		<County_Name xsi:nil="true"/>
+		<State xsi:nil="true"/>
+		<Moodys_Legal_Name>CHINA LOTSYNERGY HOLDINGS LIMITED</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>12</Organization_Currency_Code>
+		<Organization_Currency_Name>Hong Kong Dollar</Organization_Currency_Name>
+		<Organization_Currency_Short_Description></Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>HKD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>375515</Domicile_Country_Code>
+		<Domicile_Country_Name>HONG KONG</Domicile_Country_Name>
+		<Organization_Parent_Number>821216559</Organization_Parent_Number>
+		<Organization_Parent_Name>CHINA LOTSYNERGY HOLDINGS LIMITED</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>821216559</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>CHINA LOTSYNERGY HOLDINGS LIMITED</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers xsi:nil="true"/>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market xsi:nil="true"/>
+		<Organization_Aliass xsi:nil="true"/>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>821217212</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>N</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>N</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>N</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>N</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2688</Organization_Type_Code>
+		<Organization_Type_Text>Corporation</Organization_Type_Text>
+		<County xsi:nil="true"/>
+		<County_Name xsi:nil="true"/>
+		<State xsi:nil="true"/>
+		<Moodys_Legal_Name>AIR MACAU COMPANY LIMITED</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>131</Organization_Currency_Code>
+		<Organization_Currency_Name>Macau Pataca</Organization_Currency_Name>
+		<Organization_Currency_Short_Description></Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>MOP</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>600044950</Domicile_Country_Code>
+		<Domicile_Country_Name>MACAU</Domicile_Country_Name>
+		<Organization_Parent_Number>821217212</Organization_Parent_Number>
+		<Organization_Parent_Name>AIR MACAU COMPANY LIMITED</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>821217212</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>AIR MACAU COMPANY LIMITED</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers xsi:nil="true"/>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market xsi:nil="true"/>
+		<Organization_Aliass xsi:nil="true"/>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>820586895</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>N</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>N</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>N</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>N</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2688</Organization_Type_Code>
+		<Organization_Type_Text>Corporation</Organization_Type_Text>
+		<County>   </County>
+		<County_Name xsi:nil="true"/>
+		<State>  </State>
+		<Moodys_Legal_Name>COMMUNITY BUSINESS BANK</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>820586895</Organization_Parent_Number>
+		<Organization_Parent_Name>COMMUNITY BUSINESS BANK</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>820586895</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>COMMUNITY BUSINESS BANK</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers xsi:nil="true"/>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market xsi:nil="true"/>
+		<Organization_Aliass xsi:nil="true"/>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>820586892</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>N</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>N</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>N</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>N</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2688</Organization_Type_Code>
+		<Organization_Type_Text>Corporation</Organization_Type_Text>
+		<County>   </County>
+		<County_Name xsi:nil="true"/>
+		<State>  </State>
+		<Moodys_Legal_Name>VALLEY GREEN BANK</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>820586892</Organization_Parent_Number>
+		<Organization_Parent_Name>VALLEY GREEN BANK</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>820586892</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>VALLEY GREEN BANK</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers xsi:nil="true"/>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market xsi:nil="true"/>
+		<Organization_Aliass xsi:nil="true"/>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>820586909</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>N</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>N</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>N</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>N</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2688</Organization_Type_Code>
+		<Organization_Type_Text>Corporation</Organization_Type_Text>
+		<County>   </County>
+		<County_Name xsi:nil="true"/>
+		<State>  </State>
+		<Moodys_Legal_Name>TRIUMPH BANCSHARES, INC.</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>820586909</Organization_Parent_Number>
+		<Organization_Parent_Name>TRIUMPH BANCSHARES, INC.</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>820586909</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>TRIUMPH BANCSHARES, INC.</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers xsi:nil="true"/>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market xsi:nil="true"/>
+		<Organization_Aliass xsi:nil="true"/>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>800004491</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>Y</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>Y</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>Y</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>Y</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2687</Organization_Type_Code>
+		<Organization_Type_Text>Municipality</Organization_Type_Text>
+		<County>086</County>
+		<County_Name>Wright (County of) MN</County_Name>
+		<State>MN</State>
+		<Moodys_Legal_Name>BUFFALO-HANOVER-MONTROSE INDEPENDENT SCHOOL DISTRICT 877, MN</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>800004491</Organization_Parent_Number>
+		<Organization_Parent_Name>BUFFALO-HANOVER-MONTROSE INDEPENDENT SCHOOL DISTRICT 877, MN</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>800004491</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>BUFFALO-HANOVER-MONTROSE INDEPENDENT SCHOOL DISTRICT 877, MN</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers>
+			<Organization_Identifier>
+				<Organization_ID>800004491</Organization_ID>
+				<ID_Type_Code>2650</ID_Type_Code>
+				<ID_Type_Text>CUSIP</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>119655</Organization_ID_Value>
+				<Org_Country_ISO>US</Org_Country_ISO>
+			</Organization_Identifier>
+			<Organization_Identifier>
+				<Organization_ID>800004491</Organization_ID>
+				<ID_Type_Code>2001</ID_Type_Code>
+				<ID_Type_Text>Legal Entity ID</ID_Type_Text>
+				<ID_Type_Short_Description>LEI</ID_Type_Short_Description>
+				<Organization_ID_Value>549300ZXE47GW6G9WY02</Organization_ID_Value>
+				<Org_Country_ISO>US</Org_Country_ISO>
+			</Organization_Identifier>
+		</Organization_Identifiers>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market>
+			<Organization_ID>800004491</Organization_ID>
+			<Broad_Business_Line_Code>151583</Broad_Business_Line_Code>
+			<Broad_Business_Line_Text>STRUCTURED FINANCE</Broad_Business_Line_Text>
+			<Broad_Industry>SCHOOL DISTRICT</Broad_Industry>
+			<Specific_Industry>UNKNOWN</Specific_Industry>
+			<Specific_Business_Line_Code xsi:nil="true"/>
+			<Specific_Business_Line_Text></Specific_Business_Line_Text>
+			<Broad_SIC_Industry_Code>94</Broad_SIC_Industry_Code>
+			<Broad_SIC_Industry_Text>ADMINISTRATION OF HUMAN RESOURCES</Broad_SIC_Industry_Text>
+			<Specific_SIC_Industry_Code>9411</Specific_SIC_Industry_Code>
+			<Specific_SIC_Industry_Text>ADMINISTRATION OF EDUCATIONAL PROGRAMS</Specific_SIC_Industry_Text>
+			<Diversity_SIC_Text>Diversified/Conglomerate Service                  </Diversity_SIC_Text>
+			<Country>UNITED STATES</Country>
+			<State>MN</State>
+			<Credit_Quality xsi:nil="true"/>
+			<Legal_Structure xsi:nil="true"/>
+			<Long_Term_Rating xsi:nil="true"/>
+			<Market_Segment>Structured Finance; U.S. Public Finance &gt; Local Government &gt; Public K-12 School District; U.S. Public Finance &gt; Local Government &gt; Charter School</Market_Segment>
+			<Political_Economic_Groups>Asia-Pacific Economic Cooperation (APEC); Organisation for Economic Co-operation and Development (OECD)</Political_Economic_Groups>
+			<Possible_Rating_Direction xsi:nil="true"/>
+			<Program_Type xsi:nil="true"/>
+			<Rating_Action_Type xsi:nil="true"/>
+			<Region>North America &gt; United States &gt; Minnesota</Region>
+			<Residential_MBS_Of xsi:nil="true"/>
+			<Servicer_Asset_Type xsi:nil="true"/>
+			<Servicer_Loan_Type xsi:nil="true"/>
+			<Servicer_Role xsi:nil="true"/>
+			<Servicers xsi:nil="true"/>
+			<Specialized_Situation xsi:nil="true"/>
+			<Support_Type xsi:nil="true"/>
+		</Organization_Market>
+		<Organization_Aliass>
+			<Organization_Alias>
+				<Organization_ID>800004491</Organization_ID>
+				<Alias_Type_Code>5160285</Alias_Type_Code>
+				<Alias_Type_Short_Description>LEG</Alias_Type_Short_Description>
+				<Alias_Type_Value>Buffalo Hanover Montrose Independent School District No. 877</Alias_Type_Value>
+				<Effective_Date>2015-10-31T08:48:48</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>800004491</Organization_ID>
+				<Alias_Type_Code>1768</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB2</Alias_Type_Short_Description>
+				<Alias_Type_Value>Buffalo-Hanover-Montrose I.S.D. 877, MN</Alias_Type_Value>
+				<Effective_Date>1998-10-29T02:08:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>800004491</Organization_ID>
+				<Alias_Type_Code>24898</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB4</Alias_Type_Short_Description>
+				<Alias_Type_Value>Buffalo-Hanvr-MontrI.S.D. 877,MN</Alias_Type_Value>
+				<Effective_Date>2012-02-21T10:26:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>800004491</Organization_ID>
+				<Alias_Type_Code>1770</Alias_Type_Code>
+				<Alias_Type_Short_Description>MDY</Alias_Type_Short_Description>
+				<Alias_Type_Value>Buffalo-Hanover-Montrose Independent School District 877, MN</Alias_Type_Value>
+				<Effective_Date>1998-07-09T07:36:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>800004491</Organization_ID>
+				<Alias_Type_Code>2003</Alias_Type_Code>
+				<Alias_Type_Short_Description>LEI NAME</Alias_Type_Short_Description>
+				<Alias_Type_Value>Buffalo Hanover Montrose Independent School District No. 877</Alias_Type_Value>
+				<Effective_Date>1900-01-01T00:00:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+		</Organization_Aliass>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>600029237</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>Y</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>Y</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>Y</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>Y</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2687</Organization_Type_Code>
+		<Organization_Type_Text>Municipality</Organization_Type_Text>
+		<County>004</County>
+		<County_Name>Coos (County of) NH</County_Name>
+		<State>NH</State>
+		<Moodys_Legal_Name>DALTON (TOWN OF) NH</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>600025141</Organization_Parent_Number>
+		<Organization_Parent_Name>NEW HAMPSHIRE (STATE OF)</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>600025141</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>NEW HAMPSHIRE (STATE OF)</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers xsi:nil="true"/>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market xsi:nil="true"/>
+		<Organization_Aliass xsi:nil="true"/>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>600027371</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>Y</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>Y</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>Y</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>Y</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2686</Organization_Type_Code>
+		<Organization_Type_Text>County</Organization_Type_Text>
+		<County>004</County>
+		<County_Name>Coos (County of) NH</County_Name>
+		<State>NH</State>
+		<Moodys_Legal_Name>COOS (COUNTY OF) NH</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description xsi:nil="true"/>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>600027371</Organization_Parent_Number>
+		<Organization_Parent_Name>COOS (COUNTY OF) NH</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>600027371</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>COOS (COUNTY OF) NH</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers>
+			<Organization_Identifier>
+				<Organization_ID>600027371</Organization_ID>
+				<ID_Type_Code>2650</ID_Type_Code>
+				<ID_Type_Text>CUSIP</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>217028</Organization_ID_Value>
+				<Org_Country_ISO xsi:nil="true"/>
+			</Organization_Identifier>
+			<Organization_Identifier>
+				<Organization_ID>600027371</Organization_ID>
+				<ID_Type_Code>24903</ID_Type_Code>
+				<ID_Type_Text>Issuer part of CUSIP number</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>217028</Organization_ID_Value>
+				<Org_Country_ISO xsi:nil="true"/>
+			</Organization_Identifier>
+		</Organization_Identifiers>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market>
+			<Organization_ID>600027371</Organization_ID>
+			<Broad_Business_Line_Code xsi:nil="true"/>
+			<Broad_Business_Line_Text></Broad_Business_Line_Text>
+			<Broad_Industry>COUNTY</Broad_Industry>
+			<Specific_Industry>UNKNOWN</Specific_Industry>
+			<Specific_Business_Line_Code xsi:nil="true"/>
+			<Specific_Business_Line_Text></Specific_Business_Line_Text>
+			<Broad_SIC_Industry_Code xsi:nil="true"/>
+			<Broad_SIC_Industry_Text></Broad_SIC_Industry_Text>
+			<Specific_SIC_Industry_Code xsi:nil="true"/>
+			<Specific_SIC_Industry_Text></Specific_SIC_Industry_Text>
+			<Diversity_SIC_Text></Diversity_SIC_Text>
+			<Country>UNITED STATES</Country>
+			<State>NH</State>
+			<Credit_Quality xsi:nil="true"/>
+			<Legal_Structure xsi:nil="true"/>
+			<Long_Term_Rating xsi:nil="true"/>
+			<Market_Segment>U.S. Public Finance &gt; Local Government &gt; County</Market_Segment>
+			<Political_Economic_Groups>Asia-Pacific Economic Cooperation (APEC); Organisation for Economic Co-operation and Development (OECD)</Political_Economic_Groups>
+			<Possible_Rating_Direction xsi:nil="true"/>
+			<Program_Type xsi:nil="true"/>
+			<Rating_Action_Type xsi:nil="true"/>
+			<Region>North America &gt; United States &gt; New Hampshire</Region>
+			<Residential_MBS_Of xsi:nil="true"/>
+			<Servicer_Asset_Type xsi:nil="true"/>
+			<Servicer_Loan_Type xsi:nil="true"/>
+			<Servicer_Role xsi:nil="true"/>
+			<Servicers xsi:nil="true"/>
+			<Specialized_Situation xsi:nil="true"/>
+			<Support_Type xsi:nil="true"/>
+		</Organization_Market>
+		<Organization_Aliass>
+			<Organization_Alias>
+				<Organization_ID>600027371</Organization_ID>
+				<Alias_Type_Code>1770</Alias_Type_Code>
+				<Alias_Type_Short_Description>MDY</Alias_Type_Short_Description>
+				<Alias_Type_Value>Coos (County of) NH</Alias_Type_Value>
+				<Effective_Date>1998-07-09T05:06:57</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600027371</Organization_ID>
+				<Alias_Type_Code>1768</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB2</Alias_Type_Short_Description>
+				<Alias_Type_Value>Coos (County of) NH</Alias_Type_Value>
+				<Effective_Date>1998-07-09T05:06:57</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+		</Organization_Aliass>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>600025144</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>Y</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>Y</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>Y</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>Y</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2687</Organization_Type_Code>
+		<Organization_Type_Text>Municipality</Organization_Type_Text>
+		<County>004</County>
+		<County_Name>Coos (County of) NH</County_Name>
+		<State>NH</State>
+		<Moodys_Legal_Name>BERLIN (CITY OF) NH</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description xsi:nil="true"/>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>600025144</Organization_Parent_Number>
+		<Organization_Parent_Name>BERLIN (CITY OF) NH</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>600025144</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>BERLIN (CITY OF) NH</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers>
+			<Organization_Identifier>
+				<Organization_ID>600025144</Organization_ID>
+				<ID_Type_Code>2650</ID_Type_Code>
+				<ID_Type_Text>CUSIP</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>085077</Organization_ID_Value>
+				<Org_Country_ISO xsi:nil="true"/>
+			</Organization_Identifier>
+			<Organization_Identifier>
+				<Organization_ID>600025144</Organization_ID>
+				<ID_Type_Code>24903</ID_Type_Code>
+				<ID_Type_Text>Issuer part of CUSIP number</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>085077</Organization_ID_Value>
+				<Org_Country_ISO xsi:nil="true"/>
+			</Organization_Identifier>
+		</Organization_Identifiers>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market>
+			<Organization_ID>600025144</Organization_ID>
+			<Broad_Business_Line_Code xsi:nil="true"/>
+			<Broad_Business_Line_Text></Broad_Business_Line_Text>
+			<Broad_Industry>CITY</Broad_Industry>
+			<Specific_Industry>UNKNOWN</Specific_Industry>
+			<Specific_Business_Line_Code xsi:nil="true"/>
+			<Specific_Business_Line_Text></Specific_Business_Line_Text>
+			<Broad_SIC_Industry_Code xsi:nil="true"/>
+			<Broad_SIC_Industry_Text></Broad_SIC_Industry_Text>
+			<Specific_SIC_Industry_Code xsi:nil="true"/>
+			<Specific_SIC_Industry_Text></Specific_SIC_Industry_Text>
+			<Diversity_SIC_Text></Diversity_SIC_Text>
+			<Country>UNITED STATES</Country>
+			<State>NH</State>
+			<Credit_Quality xsi:nil="true"/>
+			<Legal_Structure xsi:nil="true"/>
+			<Long_Term_Rating xsi:nil="true"/>
+			<Market_Segment>U.S. Public Finance &gt; Local Government &gt; Charter School; U.S. Public Finance &gt; Local Government &gt; City (incl. Town, Village and Township); U.S. Public Finance &gt; Local Government &gt; Public K-12 School District</Market_Segment>
+			<Political_Economic_Groups>Asia-Pacific Economic Cooperation (APEC); Organisation for Economic Co-operation and Development (OECD)</Political_Economic_Groups>
+			<Possible_Rating_Direction xsi:nil="true"/>
+			<Program_Type xsi:nil="true"/>
+			<Rating_Action_Type xsi:nil="true"/>
+			<Region>North America &gt; United States &gt; New Hampshire</Region>
+			<Residential_MBS_Of xsi:nil="true"/>
+			<Servicer_Asset_Type xsi:nil="true"/>
+			<Servicer_Loan_Type xsi:nil="true"/>
+			<Servicer_Role xsi:nil="true"/>
+			<Servicers xsi:nil="true"/>
+			<Specialized_Situation xsi:nil="true"/>
+			<Support_Type xsi:nil="true"/>
+		</Organization_Market>
+		<Organization_Aliass>
+			<Organization_Alias>
+				<Organization_ID>600025144</Organization_ID>
+				<Alias_Type_Code>1770</Alias_Type_Code>
+				<Alias_Type_Short_Description>MDY</Alias_Type_Short_Description>
+				<Alias_Type_Value>Berlin (City of) NH</Alias_Type_Value>
+				<Effective_Date>1998-07-09T07:36:53</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600025144</Organization_ID>
+				<Alias_Type_Code>1768</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB2</Alias_Type_Short_Description>
+				<Alias_Type_Value>Berlin (City of) NH</Alias_Type_Value>
+				<Effective_Date>1998-07-09T07:08:50</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+		</Organization_Aliass>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>600030192</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>Y</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>Y</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>Y</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>Y</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2687</Organization_Type_Code>
+		<Organization_Type_Text>Municipality</Organization_Type_Text>
+		<County>013</County>
+		<County_Name>Delaware (County of) NY</County_Name>
+		<State>NY</State>
+		<Moodys_Legal_Name>SIDNEY (TOWN OF) NY</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>600030192</Organization_Parent_Number>
+		<Organization_Parent_Name>SIDNEY (TOWN OF) NY</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>600030192</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>SIDNEY (TOWN OF) NY</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers>
+			<Organization_Identifier>
+				<Organization_ID>600030192</Organization_ID>
+				<ID_Type_Code>2650</ID_Type_Code>
+				<ID_Type_Text>CUSIP</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>826098</Organization_ID_Value>
+				<Org_Country_ISO>US</Org_Country_ISO>
+			</Organization_Identifier>
+			<Organization_Identifier>
+				<Organization_ID>600030192</Organization_ID>
+				<ID_Type_Code>24903</ID_Type_Code>
+				<ID_Type_Text>Issuer part of CUSIP number</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>826098</Organization_ID_Value>
+				<Org_Country_ISO>US</Org_Country_ISO>
+			</Organization_Identifier>
+		</Organization_Identifiers>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market>
+			<Organization_ID>600030192</Organization_ID>
+			<Broad_Business_Line_Code xsi:nil="true"/>
+			<Broad_Business_Line_Text></Broad_Business_Line_Text>
+			<Broad_Industry>CITY</Broad_Industry>
+			<Specific_Industry>UNKNOWN</Specific_Industry>
+			<Specific_Business_Line_Code xsi:nil="true"/>
+			<Specific_Business_Line_Text></Specific_Business_Line_Text>
+			<Broad_SIC_Industry_Code>91</Broad_SIC_Industry_Code>
+			<Broad_SIC_Industry_Text>EXECUTIVE, LEGISLATIVE, AND GENERAL GOVERNMENT</Broad_SIC_Industry_Text>
+			<Specific_SIC_Industry_Code>9111</Specific_SIC_Industry_Code>
+			<Specific_SIC_Industry_Text>EXECUTIVE OFFICES</Specific_SIC_Industry_Text>
+			<Diversity_SIC_Text>Diversified/Conglomerate Service                  </Diversity_SIC_Text>
+			<Country>UNITED STATES</Country>
+			<State>NY</State>
+			<Credit_Quality xsi:nil="true"/>
+			<Legal_Structure xsi:nil="true"/>
+			<Long_Term_Rating xsi:nil="true"/>
+			<Market_Segment>U.S. Public Finance &gt; Local Government &gt; City (incl. Town, Village and Township)</Market_Segment>
+			<Political_Economic_Groups>Organisation for Economic Co-operation and Development (OECD); Asia-Pacific Economic Cooperation (APEC)</Political_Economic_Groups>
+			<Possible_Rating_Direction xsi:nil="true"/>
+			<Program_Type xsi:nil="true"/>
+			<Rating_Action_Type xsi:nil="true"/>
+			<Region>North America &gt; United States &gt; New York</Region>
+			<Residential_MBS_Of xsi:nil="true"/>
+			<Servicer_Asset_Type xsi:nil="true"/>
+			<Servicer_Loan_Type xsi:nil="true"/>
+			<Servicer_Role xsi:nil="true"/>
+			<Servicers xsi:nil="true"/>
+			<Specialized_Situation xsi:nil="true"/>
+			<Support_Type xsi:nil="true"/>
+		</Organization_Market>
+		<Organization_Aliass>
+			<Organization_Alias>
+				<Organization_ID>600030192</Organization_ID>
+				<Alias_Type_Code>1770</Alias_Type_Code>
+				<Alias_Type_Short_Description>MDY</Alias_Type_Short_Description>
+				<Alias_Type_Value>Sidney (Town of) NY</Alias_Type_Value>
+				<Effective_Date>1998-07-09T07:36:53</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600030192</Organization_ID>
+				<Alias_Type_Code>1768</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB2</Alias_Type_Short_Description>
+				<Alias_Type_Value>Sidney (Town of) NY</Alias_Type_Value>
+				<Effective_Date>1998-07-09T07:10:03</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600030192</Organization_ID>
+				<Alias_Type_Code>2003</Alias_Type_Code>
+				<Alias_Type_Short_Description>LEI NAME</Alias_Type_Short_Description>
+				<Alias_Type_Value>Town of Sidney, NY</Alias_Type_Value>
+				<Effective_Date>1900-01-01T00:00:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+		</Organization_Aliass>
+	</Organization_Root>
+	<Organization_Root>
+		<Organization_ID>600031058</Organization_ID>
+		<Organization_CFG_Indicator>Y</Organization_CFG_Indicator>
+		<Organization_PFG_Indicator>Y</Organization_PFG_Indicator>
+		<Organization_SFG_Indicator>Y</Organization_SFG_Indicator>
+		<Issuer_CFG_Indicator>Y</Issuer_CFG_Indicator>
+		<Issuer_PFG_Indicator>Y</Issuer_PFG_Indicator>
+		<Issuer_SFG_Indicator>Y</Issuer_SFG_Indicator>
+		<Issuer_Indicator>Y</Issuer_Indicator>
+		<Organization_Type_Code>2687</Organization_Type_Code>
+		<Organization_Type_Text>Municipality</Organization_Type_Text>
+		<County>029</County>
+		<County_Name>Clarke (County of) GA</County_Name>
+		<State>GA</State>
+		<Moodys_Legal_Name>CLARKE COUNTY SCHOOL DISTRICT, GA</Moodys_Legal_Name>
+		<Deal_ID xsi:nil="true"/>
+		<Organization_Currency_Code>33</Organization_Currency_Code>
+		<Organization_Currency_Name>USD</Organization_Currency_Name>
+		<Organization_Currency_Short_Description>USD</Organization_Currency_Short_Description>
+		<Organization_Currency_ISO_Code>USD</Organization_Currency_ISO_Code>
+		<Product_Line_Description></Product_Line_Description>
+		<Domicile_Country_Code>790575</Domicile_Country_Code>
+		<Domicile_Country_Name>UNITED STATES</Domicile_Country_Name>
+		<Organization_Parent_Number>600031058</Organization_Parent_Number>
+		<Organization_Parent_Name>CLARKE COUNTY SCHOOL DISTRICT, GA</Organization_Parent_Name>
+		<Organization_Ultimate_Parent_Number>600031058</Organization_Ultimate_Parent_Number>
+		<Organization_Ultimate_Parent_Name>CLARKE COUNTY SCHOOL DISTRICT, GA</Organization_Ultimate_Parent_Name>
+		<Organization_Ratings xsi:nil="true"/>
+		<Organization_Identifiers>
+			<Organization_Identifier>
+				<Organization_ID>600031058</Organization_ID>
+				<ID_Type_Code>2650</ID_Type_Code>
+				<ID_Type_Text>CUSIP</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>181687</Organization_ID_Value>
+				<Org_Country_ISO>US</Org_Country_ISO>
+			</Organization_Identifier>
+			<Organization_Identifier>
+				<Organization_ID>600031058</Organization_ID>
+				<ID_Type_Code>24903</ID_Type_Code>
+				<ID_Type_Text>Issuer part of CUSIP number</ID_Type_Text>
+				<ID_Type_Short_Description>CUS</ID_Type_Short_Description>
+				<Organization_ID_Value>181687</Organization_ID_Value>
+				<Org_Country_ISO>US</Org_Country_ISO>
+			</Organization_Identifier>
+		</Organization_Identifiers>
+		<Organization_Attributes xsi:nil="true"/>
+		<Organization_Market>
+			<Organization_ID>600031058</Organization_ID>
+			<Broad_Business_Line_Code xsi:nil="true"/>
+			<Broad_Business_Line_Text></Broad_Business_Line_Text>
+			<Broad_Industry>SCHOOL DISTRICT</Broad_Industry>
+			<Specific_Industry>UNKNOWN</Specific_Industry>
+			<Specific_Business_Line_Code xsi:nil="true"/>
+			<Specific_Business_Line_Text></Specific_Business_Line_Text>
+			<Broad_SIC_Industry_Code>82</Broad_SIC_Industry_Code>
+			<Broad_SIC_Industry_Text>EDUCATIONAL SERVICES</Broad_SIC_Industry_Text>
+			<Specific_SIC_Industry_Code>8211</Specific_SIC_Industry_Code>
+			<Specific_SIC_Industry_Text>ELEMENTARY AND SECONDARY SCHOOLS</Specific_SIC_Industry_Text>
+			<Diversity_SIC_Text>Healthcare, Education &amp; Childcare                 </Diversity_SIC_Text>
+			<Country>UNITED STATES</Country>
+			<State>GA</State>
+			<Credit_Quality xsi:nil="true"/>
+			<Legal_Structure xsi:nil="true"/>
+			<Long_Term_Rating xsi:nil="true"/>
+			<Market_Segment>U.S. Public Finance &gt; Local Government &gt; Public K-12 School District; U.S. Public Finance &gt; Local Government &gt; Charter School</Market_Segment>
+			<Political_Economic_Groups>Asia-Pacific Economic Cooperation (APEC); Organisation for Economic Co-operation and Development (OECD)</Political_Economic_Groups>
+			<Possible_Rating_Direction xsi:nil="true"/>
+			<Program_Type xsi:nil="true"/>
+			<Rating_Action_Type xsi:nil="true"/>
+			<Region>North America &gt; United States &gt; Georgia</Region>
+			<Residential_MBS_Of xsi:nil="true"/>
+			<Servicer_Asset_Type xsi:nil="true"/>
+			<Servicer_Loan_Type xsi:nil="true"/>
+			<Servicer_Role xsi:nil="true"/>
+			<Servicers xsi:nil="true"/>
+			<Specialized_Situation xsi:nil="true"/>
+			<Support_Type xsi:nil="true"/>
+		</Organization_Market>
+		<Organization_Aliass>
+			<Organization_Alias>
+				<Organization_ID>600031058</Organization_ID>
+				<Alias_Type_Code>1768</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB2</Alias_Type_Short_Description>
+				<Alias_Type_Value>Clarke County School District, GA</Alias_Type_Value>
+				<Effective_Date>1998-07-09T07:10:15</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600031058</Organization_ID>
+				<Alias_Type_Code>1770</Alias_Type_Code>
+				<Alias_Type_Short_Description>MDY</Alias_Type_Short_Description>
+				<Alias_Type_Value>Clarke County School District, GA</Alias_Type_Value>
+				<Effective_Date>1998-07-09T07:36:53</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600031058</Organization_ID>
+				<Alias_Type_Code>24898</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB4</Alias_Type_Short_Description>
+				<Alias_Type_Value>Clarke County Sch. Dist., GA</Alias_Type_Value>
+				<Effective_Date>1997-05-09T14:17:05</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600031058</Organization_ID>
+				<Alias_Type_Code>24897</Alias_Type_Code>
+				<Alias_Type_Short_Description>PB3</Alias_Type_Short_Description>
+				<Alias_Type_Value>Clarke County Sch. Dist., GA</Alias_Type_Value>
+				<Effective_Date>1997-05-09T14:17:05</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600031058</Organization_ID>
+				<Alias_Type_Code>5160285</Alias_Type_Code>
+				<Alias_Type_Short_Description>LEG</Alias_Type_Short_Description>
+				<Alias_Type_Value>Clarke County School District</Alias_Type_Value>
+				<Effective_Date>2015-10-31T08:47:23</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+			<Organization_Alias>
+				<Organization_ID>600031058</Organization_ID>
+				<Alias_Type_Code>2003</Alias_Type_Code>
+				<Alias_Type_Short_Description>LEI NAME</Alias_Type_Short_Description>
+				<Alias_Type_Value>Clarke County School District</Alias_Type_Value>
+				<Effective_Date>1900-01-01T00:00:00</Effective_Date>
+				<Termination_Date xsi:nil="true"/>
+			</Organization_Alias>
+		</Organization_Aliass>
+	</Organization_Root>
+</Organization_Roots>

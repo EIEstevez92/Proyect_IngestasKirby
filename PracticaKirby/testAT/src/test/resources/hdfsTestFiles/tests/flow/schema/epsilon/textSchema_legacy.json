@@ -1,0 +1,20 @@
+{
+  "namespace" : "",
+  "name" : "epsilon",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "field_1",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "field_1",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  }, {
+    "name" : "field_2",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "field_2",
+    "logicalFormat" : "ALPHANUMERIC(10)"
+  } ]
+}

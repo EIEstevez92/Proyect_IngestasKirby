@@ -1,0 +1,245 @@
+﻿{
+	"namespace": "comp.kdco_cs",
+	"name": "t_kdco_cs_country",
+	"doc": "kdco_cs",
+	"database": "Avro",
+	"type": "record",
+
+	"fields":    [ {
+		"name": "country_id",
+		"type": "string",
+		"legacyName": "COD_PAISOALF",
+		"logicalFormat": "ALPHANUMERIC(2)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "closing_date",
+		"type": "string",
+		"legacyName": "FEC_CIERRE",
+		"logicalFormat": "DATE",
+		"format": "yyyy-MM-dd",
+		"deleted": false,
+		"metadata": false,
+		"default": "1900-01-01"
+	}, {
+		"name": "internal_country_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_PAISINT",
+		"logicalFormat": "NUMERIC SHORT",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "countrynum_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_PAISNRO",
+		"logicalFormat": "ALPHANUMERIC(4)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "centralbank_country_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_PAISBCOC",
+		"logicalFormat": "ALPHANUMERIC(4)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "cbreports_country_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_PAISBCIN",
+		"logicalFormat": "ALPHANUMERIC(4)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "alphcb_country_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_PABCALFA",
+		"logicalFormat": "ALPHANUMERIC(2)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "country_desc",
+		"type": ["string", "null"],
+		"legacyName": "DES_PAIS_LAR",
+		"logicalFormat": "ALPHANUMERIC(40)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "country_name",
+		"type": ["string", "null"],
+		"legacyName": "DES_PAIS_COR",
+		"logicalFormat": "ALPHANUMERIC(20)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "intorg_country_type",
+		"type": ["string", "null"],
+		"legacyName": "XTI_PAISOINT",
+		"logicalFormat": "ALPHANUMERIC(1)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "haven_type",
+		"type": ["string", "null"],
+		"legacyName": "XTI_PARAISOF",
+		"logicalFormat": "ALPHANUMERIC(1)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "difficulty_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_DIFICULT",
+		"logicalFormat": "NUMERIC SHORT",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "difficulty_change_month_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_MES_CAMB",
+		"logicalFormat": "ALPHANUMERIC(2)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "difficulty_change_year_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_ANO_CAMB",
+		"logicalFormat": "ALPHANUMERIC(4)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "min_provision_amount",
+		"type": ["string", "null"],
+		"legacyName": "IMP_PROVMINI",
+		"logicalFormat": "DECIMAL(7,2)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "real_provision_amount",
+		"type": ["string", "null"],
+		"legacyName": "IMP_PROVREAL",
+		"logicalFormat": "DECIMAL(7,2)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "bankcode_format_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_FOBANCOD",
+		"logicalFormat": "ALPHANUMERIC(2)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "bankformat_char_number",
+		"type": ["string", "null"],
+		"legacyName": "QNU_FOBANNUM",
+		"logicalFormat": "NUMERIC SHORT",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "bankformat_char_type",
+		"type": ["string", "null"],
+		"legacyName": "XTI_FOBANTIP",
+		"logicalFormat": "ALPHANUMERIC(1)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "accformat_char_number",
+		"type": ["string", "null"],
+		"legacyName": "QNU_FOCTANUM",
+		"logicalFormat": "NUMERIC SHORT",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "accformat_char_type",
+		"type": ["string", "null"],
+		"legacyName": "XTI_FOCTATIP",
+		"logicalFormat": "ALPHANUMERIC(1)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "description_format_id",
+		"type": ["string", "null"],
+		"legacyName": "DES_FORM_CTA",
+		"logicalFormat": "ALPHANUMERIC(80)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "int_prefix_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_PRE_INTR",
+		"logicalFormat": "ALPHANUMERIC(4)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "prefixdigits_number",
+		"type": ["string", "null"],
+		"legacyName": "QNU_DIGSINIF",
+		"logicalFormat": "NUMERIC SHORT",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "cancellation_date",
+		"type": ["string", "null"],
+		"legacyName": "FEC_BAJAPAIS",
+		"logicalFormat": "DATE",
+		"format": "yyyy-MM-dd",
+		"deleted": false,
+		"metadata": false,
+		"default": "1900-01-01"
+	}, {
+		"name": "translation_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_TRADUCC",
+		"logicalFormat": "ALPHANUMERIC(10)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "language_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_IDIOMISO",
+		"logicalFormat": "ALPHANUMERIC(2)",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "interface_seq_id",
+		"type": ["string", "null"],
+		"legacyName": "COD_SEC_INT",
+		"logicalFormat": "NUMERIC LARGE",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "audit_date",
+		"type": ["string", "null"],
+		"legacyName": "AUD_TIM",
+		"logicalFormat": "TIMESTAMP",
+		"format": "yyyy-MM-dd hh:mm:ss.SSSSSS",
+		"deleted": false,
+		"metadata": false,
+		"default": "1900-01-01 00:00:00.000000"
+	}]
+
+}

@@ -1,0 +1,593 @@
+{
+  "namespace" : "",
+  "name" : "t_kdat_transact_complem_info_m",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "transaction_code",
+    "type" : [ "int64" ],
+    "default" : 0,
+    "legacyName" : "cod_num_trn",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "source_file_type",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "xti_orig_rui",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "close_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_cierre",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "request_transact_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_soli_trn",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "request_transact_tim",
+    "type" : [ "int" ],
+    "legacyName" : "hms_soli_trn",
+    "logicalFormat" : "TIME"
+  }, {
+    "name" : "year_request_transact_number",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_anno_ej",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "month_request_transact_number",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_mes_ej",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "ims_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_trnfims",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "type_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tiptrn",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "subtype_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_subtrn",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "version_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_vertrn",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "channel_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_canal_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "average_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_medio_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "service_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_serv_dv",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "pan_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pan",
+    "logicalFormat" : "ALPHANUMERIC(19)"
+  }, {
+    "name" : "detail_id_document_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_refaplic",
+    "logicalFormat" : "ALPHANUMERIC(19)"
+  }, {
+    "name" : "currency_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_diisoalf",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "transaction_amount",
+    "type" : [ "decimal(17,2)", "null" ],
+    "legacyName" : "imp_trans",
+    "logicalFormat" : "DECIMAL(17,2)"
+  }, {
+    "name" : "shipment_detail_number",
+    "type" : [ "int64", "null" ],
+    "default" : 0,
+    "legacyName" : "qnu_detareme",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "value_transaction_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_ini_proc",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "rop_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_id_rop",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "parent_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_id_rel",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "kind_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tip_nat",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "country_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_paisoalf",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "holder_bank_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_entalfat",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "entity_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_entalfa",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "transaction_branch_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_ofictrn",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "holder_branch_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_ofictom",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "detail_transaction1_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_det_ope1",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "detail_transaction2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_det_ope2",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "document_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_documps",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "document_id_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tipident",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "country_card_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_ict",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "bank_card_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_ict",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "card_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idcontrt",
+    "logicalFormat" : "ALPHANUMERIC(26)"
+  }, {
+    "name" : "country_Account_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_ica",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "bank_Account_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_ica",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "Account_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idcontra",
+    "logicalFormat" : "ALPHANUMERIC(26)"
+  }, {
+    "name" : "country2_Account_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_ic2",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "bank2_Account_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_ic2",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "Account2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idcontr2",
+    "logicalFormat" : "ALPHANUMERIC(26)"
+  }, {
+    "name" : "country_person_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_per",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "bank_person_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_per",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "person_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_persctpn",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "docid_country_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_ide",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "docid_bank_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_ide",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "docid_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pers_ide",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "card_country_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_tar",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "card_bank_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_tar",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "card_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pers_tar",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "contrct1_country_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_c1",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "Account1_bank_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_c1",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "Account1_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pers_c1",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "contrct2_country_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_c2",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "Account2_bank_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_c2",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "Account2_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pers_c2",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "transac_country_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_trs",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "transac_bank_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_trs",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "transac_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pers_trs",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "trans_cntc_country_custmr_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pais_ctr",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "trans_cntc_bank_custmr_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_enta_ctr",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "trans_cntc_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pers_ctr",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "merchant_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_comercc",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "reference_app_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tip_ref",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "transact_app_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_apli_trn",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "error_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_erravi",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "sever_error_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_severr",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "place_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_npuesto",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "user_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_user",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "status_transaction_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_st_operc",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "mit_group_event_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_geve_trn",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "mit_event_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_eve_trn",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "mit_detail_event_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_deve_trn",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "business_function_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_fun_neg",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "physical_support_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_sop_fis",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "mit_product_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pmit_trn",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "detail_Account_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_detalcto",
+    "logicalFormat" : "ALPHANUMERIC(50)"
+  }, {
+    "name" : "detail_Account2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_detalct2",
+    "logicalFormat" : "ALPHANUMERIC(50)"
+  }, {
+    "name" : "contain_idcustmr_channel_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tpiclori",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "container_idcustomer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idrecori",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "contain_idcntrct_channel_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idextno",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "container_idAccount_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisej",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "src_trans_Account_bank_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_entalf1",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "source_branch_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_ofialfac",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "bank_Account2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_entalf2",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "branch_Account2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_ofialfa2",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "counterpart_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pgccontr",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "counterpart_Account2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pgccont2",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "page_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_folioctt",
+    "logicalFormat" : "ALPHANUMERIC(14)"
+  }, {
+    "name" : "page_Account2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_folioct2",
+    "logicalFormat" : "ALPHANUMERIC(14)"
+  }, {
+    "name" : "dependent_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_dependac",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "dependent_Account2_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_dependa2",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "container_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_contorig",
+    "logicalFormat" : "ALPHANUMERIC(26)"
+  }, {
+    "name" : "position_user_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_cargousu",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "error_transac_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_errrop",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "return_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_retortr",
+    "logicalFormat" : "ALPHANUMERIC(8)"
+  }, {
+    "name" : "sequent_interface_code",
+    "type" : [ "int64" ],
+    "default" : 0,
+    "legacyName" : "cod_sec_int",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "audit_tim",
+    "type" : [ "timestamp-millis" ],
+    "legacyName" : "aud_tim",
+    "logicalFormat" : "TIMESTAMP"
+  } ]
+}

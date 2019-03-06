@@ -1,0 +1,235 @@
+﻿{
+	"namespace": "comp.kdco_cs",
+	"name": "t_kdco_cs_country",
+	"doc": "kdco_cs",
+	"database": "Parquet",
+	"type": "record",
+
+	"fields":    [ {
+		"name": "country_id",
+		"type": "string",
+		"legacyName": "country_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "closing_date",
+		"type": "string",
+		"legacyName": "closing_date",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "internal_country_id",
+		"type": ["int32", "null"],
+		"legacyName": "internal_country_id",
+		"logicalFormat": "int",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "countrynum_id",
+		"type": ["string", "null"],
+		"legacyName": "countrynum_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "centralbank_country_id",
+		"type": ["string", "null"],
+		"legacyName": "centralbank_country_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "cbreports_country_id",
+		"type": ["string", "null"],
+		"legacyName": "cbreports_country_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "alphcb_country_id",
+		"type": ["string", "null"],
+		"legacyName": "alphcb_country_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "country_desc",
+		"type": ["string", "null"],
+		"legacyName": "country_desc",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "country_name",
+		"type": ["string", "null"],
+		"legacyName": "country_name",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "intorg_country_type",
+		"type": ["string", "null"],
+		"legacyName": "intorg_country_type",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "haven_type",
+		"type": ["string", "null"],
+		"legacyName": "haven_type",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "difficulty_id",
+		"type": ["int32", "null"],
+		"legacyName": "difficulty_id",
+		"logicalFormat": "int",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "difficulty_change_month_id",
+		"type": ["string", "null"],
+		"legacyName": "difficulty_change_month_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "difficulty_change_year_id",
+		"type": ["string", "null"],
+		"legacyName": "difficulty_change_year_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "min_provision_amount",
+		"type": ["decimal(7,2)", "null"],
+		"legacyName": "min_provision_amount",
+		"logicalFormat": "decimal",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "real_provision_amount",
+		"type": ["decimal(7,2)", "null"],
+		"legacyName": "real_provision_amount",
+		"logicalFormat": "decimal",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "bankcode_format_id",
+		"type": ["string", "null"],
+		"legacyName": "bankcode_format_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "bankformat_char_number",
+		"type": ["int32", "null"],
+		"legacyName": "bankformat_char_number",
+		"logicalFormat": "int",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "bankformat_char_type",
+		"type": ["string", "null"],
+		"legacyName": "bankformat_char_type",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "accformat_char_number",
+		"type": ["int32", "null"],
+		"legacyName": "accformat_char_number",
+		"logicalFormat": "int",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "accformat_char_type",
+		"type": ["string", "null"],
+		"legacyName": "accformat_char_type",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "description_format_id",
+		"type": ["string", "null"],
+		"legacyName": "description_format_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "int_prefix_id",
+		"type": ["string", "null"],
+		"legacyName": "int_prefix_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "prefixdigits_number",
+		"type": ["int32", "null"],
+		"legacyName": "prefixdigits_number",
+		"logicalFormat": "int",
+		"deleted": false,
+		"metadata": false,
+		"default": 0
+	}, {
+		"name": "cancellation_date",
+		"type": ["string", "null"],
+		"legacyName": "cancellation_date",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "translation_id",
+		"type": ["string", "null"],
+		"legacyName": "translation_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "language_id",
+		"type": ["string", "null"],
+		"legacyName": "language_id",
+		"logicalFormat": "string",
+		"deleted": false,
+		"metadata": false,
+		"default": ""
+	}, {
+		"name": "audit_date",
+		"type": ["timestamp_millis", "null"],
+		"legacyName": "audit_date",
+		"logicalFormat": "string",
+		"format": "yyyy-MM-dd hh:mm:ss.SSSSSS",
+		"deleted": false,
+		"metadata": false,
+		"default": "1900-01-01 00:00:00.000000"
+	}]
+
+}

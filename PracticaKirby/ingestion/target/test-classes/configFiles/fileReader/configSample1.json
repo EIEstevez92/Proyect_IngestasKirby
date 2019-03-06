@@ -1,0 +1,414 @@
+{
+  "namespace" : "",
+  "name" : "t_kdat_mrr",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "num_trn_code",
+    "type" : [ "int" ],
+    "legacyName" : "cod_num_trn"
+  }, {
+    "name" : "orig_rui_type",
+    "type" : [ "string" ],
+    "legacyName" : "xti_orig_rui"
+  }, {
+    "name" : "cierre_date",
+    "type" : [ "string" ],
+    "legacyName" : "fec_cierre"
+  }, {
+    "name" : "soli_trn_date",
+    "type" : [ "string" ],
+    "legacyName" : "fec_soli_trn"
+  }, {
+    "name" : "soli_trn_hour",
+    "type" : [ "string" ],
+    "legacyName" : "hms_soli_trn"
+  }, {
+    "name" : "anno_ej_code",
+    "type" : [ "string" ],
+    "legacyName" : "cod_anno_ej"
+  }, {
+    "name" : "mes_ej_code",
+    "type" : [ "string" ],
+    "legacyName" : "cod_mes_ej"
+  }, {
+    "name" : "trnfims_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_trnfims"
+  }, {
+    "name" : "tiptrn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tiptrn"
+  }, {
+    "name" : "subtrn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_subtrn"
+  }, {
+    "name" : "vertrn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_vertrn"
+  }, {
+    "name" : "canal_dv_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_canal_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "medio_dv_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_medio_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "serv_dv_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_serv_dv"
+  }, {
+    "name" : "pan_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pan"
+  }, {
+    "name" : "refaplic_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_refaplic"
+  }, {
+    "name" : "diisoalf_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_diisoalf",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "trans_amount",
+    "type" : [ "decimal(17, 2)", "null" ],
+    "legacyName" : "imp_trans"
+  }, {
+    "name" : "detareme_number",
+    "type" : [ "int", "null" ],
+    "legacyName" : "qnu_detareme"
+  }, {
+    "name" : "ini_proc_date",
+    "type" : [ "string", "null" ],
+    "legacyName" : "fec_ini_proc"
+  }, {
+    "name" : "id_rop_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_id_rop"
+  }, {
+    "name" : "id_rel_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_id_rel"
+  }, {
+    "name" : "tip_nat_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tip_nat"
+  }, {
+    "name" : "paisoalf_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_paisoalf",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entalfat_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_entalfat"
+  }, {
+    "name" : "entalfa_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_entalfa",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "ofictrn_code",
+    "type" : [ "string" ],
+    "legacyName" : "cod_ofictrn"
+  }, {
+    "name" : "ofictom_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_ofictom"
+  }, {
+    "name" : "det_ope1_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_det_ope1"
+  }, {
+    "name" : "det_ope2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_det_ope2"
+  }, {
+    "name" : "documps_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_documps"
+  }, {
+    "name" : "tipident_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tipident"
+  }, {
+    "name" : "pais_ict_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ict"
+  }, {
+    "name" : "enta_ict_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ict"
+  }, {
+    "name" : "idcontrt_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idcontrt"
+  }, {
+    "name" : "pais_ica_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ica"
+  }, {
+    "name" : "enta_ica_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ica"
+  }, {
+    "name" : "idcontra_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idcontra",
+    "logicalFormat" : "ALPHANUMERIC(26)"
+  }, {
+    "name" : "pais_ic2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ic2"
+  }, {
+    "name" : "enta_ic2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ic2"
+  }, {
+    "name" : "idcontr2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idcontr2"
+  }, {
+    "name" : "pais_per_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_per"
+  }, {
+    "name" : "enta_per_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_per"
+  }, {
+    "name" : "persctpn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_persctpn"
+  }, {
+    "name" : "pais_ide_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ide"
+  }, {
+    "name" : "enta_ide_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ide"
+  }, {
+    "name" : "pers_ide_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_ide"
+  }, {
+    "name" : "pais_tar_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_tar"
+  }, {
+    "name" : "enta_tar_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_tar"
+  }, {
+    "name" : "pers_tar_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_tar"
+  }, {
+    "name" : "pais_c1_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_c1"
+  }, {
+    "name" : "enta_c1_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_c1"
+  }, {
+    "name" : "pers_c1_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_c1"
+  }, {
+    "name" : "pais_c2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_c2"
+  }, {
+    "name" : "enta_c2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_c2"
+  }, {
+    "name" : "pers_c2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_c2"
+  }, {
+    "name" : "pais_trs_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_trs"
+  }, {
+    "name" : "enta_trs_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_trs"
+  }, {
+    "name" : "pers_trs_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_trs"
+  }, {
+    "name" : "pais_ctr_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pais_ctr"
+  }, {
+    "name" : "enta_ctr_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_enta_ctr"
+  }, {
+    "name" : "pers_ctr_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pers_ctr"
+  }, {
+    "name" : "comercc_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_comercc"
+  }, {
+    "name" : "tip_ref_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tip_ref"
+  }, {
+    "name" : "apli_trn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_apli_trn"
+  }, {
+    "name" : "erravi_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_erravi"
+  }, {
+    "name" : "severr_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_severr"
+  }, {
+    "name" : "npuesto_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_npuesto"
+  }, {
+    "name" : "user_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_user"
+  }, {
+    "name" : "st_operc_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_st_operc"
+  }, {
+    "name" : "geve_trn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_geve_trn"
+  }, {
+    "name" : "eve_trn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_eve_trn"
+  }, {
+    "name" : "deve_trn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_deve_trn"
+  }, {
+    "name" : "fun_neg_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_fun_neg"
+  }, {
+    "name" : "sop_fis_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_sop_fis"
+  }, {
+    "name" : "pmit_trn_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pmit_trn"
+  }, {
+    "name" : "detalcto_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_detalcto"
+  }, {
+    "name" : "detalct2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_detalct2"
+  }, {
+    "name" : "tpiclori_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_tpiclori"
+  }, {
+    "name" : "idrecori_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idrecori"
+  }, {
+    "name" : "idextno_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_idextno"
+  }, {
+    "name" : "paisej_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_paisej"
+  }, {
+    "name" : "entalf1_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_entalf1"
+  }, {
+    "name" : "ofialfac_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_ofialfac"
+  }, {
+    "name" : "entalf2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_entalf2"
+  }, {
+    "name" : "ofialfa2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_ofialfa2"
+  }, {
+    "name" : "pgccontr_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_pgccontr",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "pgccont2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_pgccont2"
+  }, {
+    "name" : "folioctt_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_folioctt"
+  }, {
+    "name" : "folioct2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_folioct2"
+  }, {
+    "name" : "dependac_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_dependac"
+  }, {
+    "name" : "dependa2_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_dependa2"
+  }, {
+    "name" : "contorig_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_contorig"
+  }, {
+    "name" : "cargousu_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_cargousu"
+  }, {
+    "name" : "errrop_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_errrop"
+  }, {
+    "name" : "retortr_code",
+    "type" : [ "string", "null" ],
+    "legacyName" : "cod_retortr"
+  }, {
+    "name" : "sec_int_code",
+    "type" : [ "int" ],
+    "legacyName" : "cod_sec_int"
+  }, {
+    "name" : "tim_audit",
+    "type" : [ "string" ],
+    "legacyName" : "aud_tim"
+  } ]
+}

@@ -1,0 +1,596 @@
+{
+  "namespace" : "",
+  "name" : "t_kdat_customer_m",
+  "doc" : "",
+  "database" : "",
+  "type" : "record",
+  "fields" : [ {
+    "name" : "country_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_paisoalf",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entity_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_entalfa",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "person_code",
+    "type" : [ "string" ],
+    "default" : "",
+    "legacyName" : "cod_persctpn",
+    "logicalFormat" : "ALPHANUMERIC(9)"
+  }, {
+    "name" : "close_date",
+    "type" : [ "date" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_cierre",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "start_vadility_time",
+    "type" : [ "timestamp_millis", "null" ],
+    "default" : 1513340830098,
+    "legacyName" : "tim_ini_vig",
+    "logicalFormat" : "TIMESTAMP"
+  }, {
+    "name" : "end_vadility_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_fin_vin",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "birth_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_nacimi",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "register_person_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_altapers",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "account_end_person_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_bajapers",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "person_name",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nombfj",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "1st_last_name_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_unoapell",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "2nd_last_name_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_dosapell",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "employees_number",
+    "type" : [ "int64", "null" ],
+    "default" : 0,
+    "legacyName" : "qnu_empledos",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "mail_language_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_idiocorr",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "special_status_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_sit_esp",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "residence_country_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisores",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "birth_country_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisonac",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "nationality_country_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisonad",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "professional_relation_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tipemple",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "academic_formation_person_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_formcli",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "matrimonial_regime_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_regmatr",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "identify1_document_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tp_iden1",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "doc1_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_documps1",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "identify2_document_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tp_iden2",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "doc2_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_documps2",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "identify3_document_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tipiden3",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "doc3_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_documps3",
+    "logicalFormat" : "ALPHANUMERIC(25)"
+  }, {
+    "name" : "type_occupation_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tip_ocup",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "end_activity_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_finactiv",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "invoice_company_amount",
+    "type" : [ "decimal(17, 2)", "null" ],
+    "default" : "1.0E17",
+    "legacyName" : "imp_factremp",
+    "logicalFormat" : "DECIMAL(17,2)"
+  }, {
+    "name" : "invoice_currency_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_diisofac",
+    "logicalFormat" : "ALPHANUMERIC(3)"
+  }, {
+    "name" : "email_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_emailfj",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "treatment_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tptratam",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "role_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tiporol",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "person_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_persona",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "sex_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_csexof",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "civil_status_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_estcivil",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "economic_activity_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_cnaecto",
+    "logicalFormat" : "ALPHANUMERIC(11)"
+  }, {
+    "name" : "accounting_sector_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_sectcont",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "accounting_subsector_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_subscont",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "remitent_application_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_aplremit",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "occupation_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_cnocu",
+    "logicalFormat" : "ALPHANUMERIC(5)"
+  }, {
+    "name" : "unemploy_payment_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_cbrdesem",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "refinance_debt_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_refdeuda",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "robinson_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_robinson",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "last_modif_transaction_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_ultmodop",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "property_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_locprop",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "property_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_pisoprop",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "incorporation_customer_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_ingclien",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "incharge_person_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_cargo",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "childrens_in_charge_number",
+    "type" : [ "int32", "null" ],
+    "default" : 0,
+    "legacyName" : "qnu_ninoscar",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "adults_in_charge_amount",
+    "type" : [ "int32", "null" ],
+    "default" : 0,
+    "legacyName" : "qnu_adultcar",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "field_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_ambito",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "vip_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_clienvip",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "robinson_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_robinson",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "econom_activity_company_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_cnacempp",
+    "logicalFormat" : "ALPHANUMERIC(11)"
+  }, {
+    "name" : "country_company_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_paisempp",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "entity_employee_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_entiempl",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "high_position_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_tpaltcar",
+    "logicalFormat" : "ALPHANUMERIC(6)"
+  }, {
+    "name" : "incorporation_company_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_incrpemp",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "foundation_company_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_fundaemp",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "company_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nomemprs",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "legal_issues_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_incijudi",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "default_group_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_moragrup",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "register_brach_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_oficlien",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "last_modif_branch_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_ofiultmd",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "default_entity_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_moraenti",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "birth_city_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nacimciu",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "birth_province_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_provnacm",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "profession_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_profcno",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "profession_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_profcno",
+    "logicalFormat" : "ALPHANUMERIC(40)"
+  }, {
+    "name" : "subtype_document_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_subtipod",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "trade_name_entity_desc",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "des_nomcomrs",
+    "logicalFormat" : "ALPHANUMERIC(80)"
+  }, {
+    "name" : "sequent_registry_code",
+    "type" : [ "decimal(18)" ],
+    "default" : "1.0E18",
+    "legacyName" : "cod_sqregist",
+    "logicalFormat" : "DECIMAL(18)"
+  }, {
+    "name" : "bbva_shareholder_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_accibbva",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "epa_customer_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_clieepa",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "behavior_customer_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_compclie",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "digital_profile_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_perfdigi",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "sequent_interface_code",
+    "type" : [ "int64" ],
+    "default" : 0,
+    "legacyName" : "cod_sec_int",
+    "logicalFormat" : "NUMERIC LARGE"
+  }, {
+    "name" : "income_level_code",
+    "type" : [ "int32", "null" ],
+    "default" : 0,
+    "legacyName" : "cod_mosaic",
+    "logicalFormat" : "NUMERIC SHORT"
+  }, {
+    "name" : "blackstone_customer_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_cliebx",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "remoting_group_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_gruremot",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "bbva_contigo_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_bbvacont",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "active_base_person_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_subtper",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "dae_income_level_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_niveldae",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "political_expose_person_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_politexp",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "rba_risk_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_riesrba",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "rba_scoring_amount",
+    "type" : [ "decimal(18, 4)", "null" ],
+    "default" : "1.0E18",
+    "legacyName" : "qnu_scorirba",
+    "logicalFormat" : "DECIMAL(18,4)"
+  }, {
+    "name" : "rba_diligence_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_diligrba",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "cease_customer_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_cesado",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "start_Account_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_altacto",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "channel_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_canal_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "service_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_serv_dv",
+    "logicalFormat" : "ALPHANUMERIC(4)"
+  }, {
+    "name" : "identif_method_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_metident",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "average_code",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "cod_medio_dv",
+    "logicalFormat" : "ALPHANUMERIC(2)"
+  }, {
+    "name" : "validation_customer_type",
+    "type" : [ "string", "null" ],
+    "default" : "",
+    "legacyName" : "xti_validacl",
+    "logicalFormat" : "ALPHANUMERIC(1)"
+  }, {
+    "name" : "validation_date",
+    "type" : [ "date", "null" ],
+    "default" : "2017-12-15",
+    "legacyName" : "fec_valida",
+    "logicalFormat" : "DATE"
+  }, {
+    "name" : "audit_tim",
+    "type" : [ "timestamp_millis" ],
+    "default" : 1513340830100,
+    "legacyName" : "aud_tim",
+    "logicalFormat" : "TIMESTAMP"
+  } ]
+}

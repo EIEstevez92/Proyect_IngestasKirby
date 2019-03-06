@@ -1,0 +1,1023 @@
+﻿{
+	"namespace": "comp.kdco_tr",
+	"name": "t_kdco_tr_rop",
+	"doc": "kdco_tr",
+	"database": "Parquet",
+	"type": "record",
+
+	"fields":    [ {
+				"name": "ht_accounting_1_date",
+				"type": "string",
+				"legacyName": "ht_accounting_1_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "entity_id",
+				"type": "string",
+				"legacyName": "entity_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "country_id",
+				"type": "string",
+				"legacyName": "country_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "operation_branch_id",
+				"type": "string",
+				"legacyName": "operation_branch_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "branch_terminal_post_id",
+				"type": "string",
+				"legacyName": "branch_terminal_post_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "uid_number",
+				"type": "decimal(9)",
+				"legacyName": "uid_number",
+				"logicalFormat": "decimal(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "ht_distr_channel_id",
+				"type": ["string", "null"],
+				"legacyName": "ht_distr_channel_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_distr_means_id",
+				"type": ["string", "null"],
+				"legacyName": "ht_distr_means_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "physical_origin_id",
+				"type": ["string", "null"],
+				"legacyName": "physical_origin_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "user_id",
+				"type": ["string", "null"],
+				"legacyName": "user_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "language_id",
+				"type": ["string", "null"],
+				"legacyName": "language_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "batch_rop_number",
+				"type": ["decimal(4)", "null"],
+				"legacyName": "batch_rop_number",
+				"logicalFormat": "decimal(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "batch_rop_hms_date",
+				"type": ["string", "null"],
+				"legacyName": "batch_rop_hms_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_accounting_date",
+				"type": ["string", "null"],
+				"legacyName": "ht_accounting_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "transaction_date",
+				"type": ["date", "null"],
+				"legacyName": "transaction_date",
+				"logicalFormat": "string",
+				"format": "yyyy-MM-dd",
+				"deleted": false,
+				"metadata": false,
+				"default": "1900-01-01"
+			}, {
+				"name": "execution_date",
+				"type": ["string", "null"],
+				"legacyName": "execution_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_execution_hms_date",
+				"type": ["string", "null"],
+				"legacyName": "ht_execution_hms_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "auth_status_type",
+				"type": ["string", "null"],
+				"legacyName": "auth_status_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "auth_user_id",
+				"type": ["string", "null"],
+				"legacyName": "auth_user_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "auth_number",
+				"type": ["decimal(9)", "null"],
+				"legacyName": "auth_number",
+				"logicalFormat": "decimal(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "error_id",
+				"type": ["string", "null"],
+				"legacyName": "error_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "error_severity_degree_id",
+				"type": ["string", "null"],
+				"legacyName": "error_severity_degree_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "tranfis_id",
+				"type": ["string", "null"],
+				"legacyName": "tranfis_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "rop_source_iban_id",
+				"type": ["string", "null"],
+				"legacyName": "rop_source_iban_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "source_acc_desc",
+				"type": ["string", "null"],
+				"legacyName": "source_acc_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "source_country_id",
+				"type": ["string", "null"],
+				"legacyName": "source_country_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "rop_dest_iban_id",
+				"type": ["string", "null"],
+				"legacyName": "rop_dest_iban_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "destination_acc_desc",
+				"type": ["string", "null"],
+				"legacyName": "destination_acc_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "destination_country_id",
+				"type": ["string", "null"],
+				"legacyName": "destination_country_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "customer_type_id",
+				"type": ["string", "null"],
+				"legacyName": "customer_type_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "rop_customer_doc_id",
+				"type": ["string", "null"],
+				"legacyName": "rop_customer_doc_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "transaction_id",
+				"type": ["string", "null"],
+				"legacyName": "transaction_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_transaction_type",
+				"type": ["string", "null"],
+				"legacyName": "ht_transaction_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_transaction_sub_type",
+				"type": ["string", "null"],
+				"legacyName": "ht_transaction_sub_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_version_id",
+				"type": ["string", "null"],
+				"legacyName": "ht_version_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "uid_related_id",
+				"type": ["decimal(9)", "null"],
+				"legacyName": "uid_related_id",
+				"logicalFormat": "decimal(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "acc_oper_type",
+				"type": ["string", "null"],
+				"legacyName": "acc_oper_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "currency_id",
+				"type": ["string", "null"],
+				"legacyName": "currency_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_oper_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "total_oper_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "ref_1_type_id",
+				"type": ["string", "null"],
+				"legacyName": "ref_1_type_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ref_1_desc",
+				"type": ["string", "null"],
+				"legacyName": "ref_1_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ref_2_type_id",
+				"type": ["string", "null"],
+				"legacyName": "ref_2_type_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ref_2_desc",
+				"type": ["string", "null"],
+				"legacyName": "ref_2_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_1_id",
+				"type": ["string", "null"],
+				"legacyName": "total_1_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "currency_1_id",
+				"type": ["string", "null"],
+				"legacyName": "currency_1_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "debit_credit_1_type",
+				"type": ["string", "null"],
+				"legacyName": "debit_credit_1_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_1_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "total_1_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "total_2_id",
+				"type": ["string", "null"],
+				"legacyName": "total_2_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "currency_2_id",
+				"type": ["string", "null"],
+				"legacyName": "currency_2_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "debit_credit_2_type",
+				"type": ["string", "null"],
+				"legacyName": "debit_credit_2_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_2_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "total_2_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "operation_rms_id",
+				"type": ["decimal(18,0)", "null"],
+				"legacyName": "operation_rms_id",
+				"logicalFormat": "decimal(18)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "ori_rms_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "ori_rms_currency_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ori_rms_total_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "ori_rms_total_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "rms_int_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "rms_int_currency_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "rms_interest_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "rms_interest_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "rms_fee_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "rms_fee_currency_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "rms_fee_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "rms_fee_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "rms_exp_currency_id",
+				"type": ["string", "null"],
+				"legacyName": "rms_exp_currency_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "rms_expenses_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "rms_expenses_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "program_id",
+				"type": ["string", "null"],
+				"legacyName": "program_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "customer_id",
+				"type": ["string", "null"],
+				"legacyName": "customer_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "error_var_1_id",
+				"type": ["string", "null"],
+				"legacyName": "error_var_1_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "error_var_2_id",
+				"type": ["string", "null"],
+				"legacyName": "error_var_2_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "oper_concept_id",
+				"type": ["string", "null"],
+				"legacyName": "oper_concept_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "oper_branch_id",
+				"type": ["string", "null"],
+				"legacyName": "oper_branch_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "oper_entity_id",
+				"type": ["string", "null"],
+				"legacyName": "oper_entity_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "obs_apl_desc",
+				"type": ["string", "null"],
+				"legacyName": "obs_apl_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_3_id",
+				"type": ["string", "null"],
+				"legacyName": "total_3_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "currency_3_id",
+				"type": ["string", "null"],
+				"legacyName": "currency_3_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "debit_credit_3_type",
+				"type": ["string", "null"],
+				"legacyName": "debit_credit_3_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_3_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "total_3_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "total_4_id",
+				"type": ["string", "null"],
+				"legacyName": "total_4_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "currency_4_id",
+				"type": ["string", "null"],
+				"legacyName": "currency_4_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "debit_credit_4_type",
+				"type": ["string", "null"],
+				"legacyName": "debit_credit_4_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_4_amount",
+				"type": ["decimal(21,6)", "null"],
+				"legacyName": "total_4_amount",
+				"logicalFormat": "decimal(21,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "var_part_reg_number",
+				"type": ["decimal(4)", "null"],
+				"legacyName": "var_part_reg_number",
+				"logicalFormat": "decimal(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "rop_transaction_type",
+				"type": ["string", "null"],
+				"legacyName": "rop_transaction_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "batch_details_number",
+				"type": ["decimal(4)", "null"],
+				"legacyName": "batch_details_number",
+				"logicalFormat": "decimal(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "signature_type",
+				"type": ["string", "null"],
+				"legacyName": "signature_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "source_application_id",
+				"type": ["string", "null"],
+				"legacyName": "source_application_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "digital_oper_id",
+				"type": ["string", "null"],
+				"legacyName": "digital_oper_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "doc_ref_desc",
+				"type": ["string", "null"],
+				"legacyName": "doc_ref_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "service_id",
+				"type": ["string", "null"],
+				"legacyName": "service_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_transaction_request_date",
+				"type": ["string", "null"],
+				"legacyName": "ht_transaction_request_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ht_transaction_request_hms_date",
+				"type": ["string", "null"],
+				"legacyName": "ht_transaction_request_hms_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "currency_5_id",
+				"type": ["string", "null"],
+				"legacyName": "currency_5_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "currency_6_id",
+				"type": ["string", "null"],
+				"legacyName": "currency_6_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "auto_recording_type",
+				"type": ["string", "null"],
+				"legacyName": "auto_recording_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "transaction_timeout_type",
+				"type": ["string", "null"],
+				"legacyName": "transaction_timeout_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "time_tr_timeout_number",
+				"type": ["decimal(4)", "null"],
+				"legacyName": "time_tr_timeout_number",
+				"logicalFormat": "decimal(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "process_time_tr_number",
+				"type": ["decimal(4)", "null"],
+				"legacyName": "process_time_tr_number",
+				"logicalFormat": "decimal(4)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "type_code_id",
+				"type": ["string", "null"],
+				"legacyName": "type_code_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "personal_id",
+				"type": ["string", "null"],
+				"legacyName": "personal_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "contact_identif_desc",
+				"type": ["string", "null"],
+				"legacyName": "contact_identif_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "digital_sig_cancel_type",
+				"type": ["string", "null"],
+				"legacyName": "digital_sig_cancel_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "recycle_type",
+				"type": ["string", "null"],
+				"legacyName": "recycle_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "recycling_cancel_type",
+				"type": ["string", "null"],
+				"legacyName": "recycling_cancel_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "external_box_type",
+				"type": ["string", "null"],
+				"legacyName": "external_box_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "ext_box_cancel_type",
+				"type": ["string", "null"],
+				"legacyName": "ext_box_cancel_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "effective_type",
+				"type": ["string", "null"],
+				"legacyName": "effective_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "total_in_recycler_amount",
+				"type": ["decimal(18,6)", "null"],
+				"legacyName": "total_in_recycler_amount",
+				"logicalFormat": "decimal(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "total_dep_ext_box_amount",
+				"type": ["decimal(18,6)", "null"],
+				"legacyName": "total_dep_ext_box_amount",
+				"logicalFormat": "decimal(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "total_disp_recycler_amount",
+				"type": ["decimal(18,6)", "null"],
+				"legacyName": "total_disp_recycler_amount",
+				"logicalFormat": "decimal(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "total_disp_ext_box_amount",
+				"type": ["decimal(18,6)", "null"],
+				"legacyName": "total_disp_ext_box_amount",
+				"logicalFormat": "decimal(18,6)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "start_execution_date",
+				"type": ["string", "null"],
+				"legacyName": "start_execution_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "end_execution_date",
+				"type": ["string", "null"],
+				"legacyName": "end_execution_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "device_date",
+				"type": ["string", "null"],
+				"legacyName": "device_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "requested_id_desc",
+				"type": ["string", "null"],
+				"legacyName": "requested_id_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "service_id_desc",
+				"type": ["string", "null"],
+				"legacyName": "service_id_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "error_application_id",
+				"type": ["string", "null"],
+				"legacyName": "error_application_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "error_table_id",
+				"type": ["string", "null"],
+				"legacyName": "error_table_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "sql_error_id",
+				"type": ["decimal(9)", "null"],
+				"legacyName": "sql_error_id",
+				"logicalFormat": "decimal(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+				"name": "program_error_id",
+				"type": ["string", "null"],
+				"legacyName": "program_error_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "apxnomma_id",
+				"type": ["string", "null"],
+				"legacyName": "apxnomma_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "apxgruse_id",
+				"type": ["string", "null"],
+				"legacyName": "apxgruse_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "apxipl_date",
+				"type": ["string", "null"],
+				"legacyName": "apxipl_date",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "consumer_app_id",
+				"type": ["string", "null"],
+				"legacyName": "consumer_app_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "app_consumer_app_id",
+				"type": ["string", "null"],
+				"legacyName": "app_consumer_app_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "int_app_user_id",
+				"type": ["string", "null"],
+				"legacyName": "int_app_user_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "http_ide_device_desc",
+				"type": ["string", "null"],
+				"legacyName": "http_ide_device_desc",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "service_exe_user_id",
+				"type": ["string", "null"],
+				"legacyName": "service_exe_user_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "security_mac_id",
+				"type": ["string", "null"],
+				"legacyName": "security_mac_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "entry_transaction_type",
+				"type": ["string", "null"],
+				"legacyName": "entry_transaction_type",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "header_id",
+				"type": ["string", "null"],
+				"legacyName": "header_id",
+				"logicalFormat": "string",
+				"deleted": false,
+				"metadata": false,
+				"default": ""
+			}, {
+				"name": "rem_time_exe_number",
+				"type": ["decimal(9)", "null"],
+				"legacyName": "rem_time_exe_number",
+				"logicalFormat": "decimal(9)",
+				"deleted": false,
+				"metadata": false,
+				"default": 0
+			}, {
+                "name": "closing_date",
+                "type": "date",
+                "default": "1900-01-01"
+	}]
+
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/cesponda/Documentos/QATeam/kirby2/api/src/main/scala/com/datio/kirby/api/implicits/ApplyFormat.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="11" line="137" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="11" line="138" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="11" line="192" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="11" line="194" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+ </file>
+ <file name="/home/cesponda/Documentos/QATeam/kirby2/api/src/main/scala/com/datio/kirby/api/implicits/ApplyRename.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/home/cesponda/Documentos/QATeam/kirby2/api/src/main/scala/com/datio/kirby/api/implicits/EvolutionTypes.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/home/cesponda/Documentos/QATeam/kirby2/api/src/main/scala/com/datio/kirby/api/util/RepartitionDSL.scala">
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+ </file>
+ <file name="/home/cesponda/Documentos/QATeam/kirby2/api/src/main/scala/com/datio/kirby/api/implicits/package.scala">
+  <error column="10" line="13" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+ </file>
+</checkstyle>
